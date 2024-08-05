@@ -1,0 +1,126 @@
+# ------------------------------------------------------------------------------
+
+# ==============================================================================
+# Publication.yml
+# ------------------------------------------------------------------------------
+#
+# This file houses the bibliographic info and general metadata for your digital
+# publication.
+
+# ------------------------------------------------------------------------------
+# The publication's base URL, i.e. 'https://www.my-publication.org'
+url: 'http://localhost:8080'
+
+# ------------------------------------------------------------------------------
+# Title & Description
+title: Processing Place
+subtitle: How Computers and Cartographers Redrew Our World
+reading_line:
+short_title:
+
+description:
+  one_line:
+  full: "Today, the maps that show up most often in our everyday lives are made by computers. Even the simplest of these rely on vast databases of geographic information and complex systems for creating and analyzing it. In this exhibition, we look at how computers and cartography fused together over the past century—and how they redrew our world in the process."
+
+# ------------------------------------------------------------------------------
+# Publication Details
+# ------------------------------------------------------------------------------
+
+pub_date: 2024-09-13 # YYYY-MM-DD
+language: en
+pub_type: exhibition # book | journal-periodical | other
+
+identifier:
+  isbn:
+
+publisher:
+  - name: Leventhal Map & Education Center at the Boston Public Library
+    location: Boston
+    url: https://www.leventhalmap.org
+    logo: MapCenter-allwhite.png
+
+# ------------------------------------------------------------------------------
+# Contributors
+# ------------------------------------------------------------------------------
+
+contributor_as_it_appears: "Leventhal Map & Education Center at the Boston Public Library"
+
+contributor:
+  - id: ispangler
+    type: primary
+    first_name: Ian
+    last_name: Spangler
+    title: Assistant Curator of Digital & Participatory Geography
+    affiliation: Leventhal Map & Education Center at the Boston Public Library 
+    url: https://www.leventhalmap.org/about/people/ian-spangler/
+  - id: ebowe
+    type: primary
+    first_name: Emily
+    last_name: Bowe
+    title: Assistant Director
+    affiliation: Leventhal Map & Education Center at the Boston Public Library
+    url: https://www.leventhalmap.org/about/people/emily-bowe/
+
+# ------------------------------------------------------------------------------
+# Copright & License
+# ------------------------------------------------------------------------------
+
+copyright: © 2024 Leventhal Map & Education Center at the Boston Public Library
+
+license:
+  name: Creative Commons Attribution 4.0 International License
+  abbreviation: CC BY
+  url: https://creativecommons.org/licenses/by/4.0/
+  scope: full # full | text-only | some-exceptions
+
+# ------------------------------------------------------------------------------
+# Formats, Resources & Links
+# ------------------------------------------------------------------------------
+
+resource_link:
+  # - type: other-format
+  #   name: PDF
+  #   media_type: application/pdf
+  #   link_relation: alternate
+  #   url: /downloads/output.pdf
+  # - type: other-format
+  #   name: EPUB
+  #   media_type: application/epub+zip
+  #   link_relation: alternate
+  #   url: /downloads/output.epub
+  - type: footer-link
+    name: About
+    link_relation: about
+    url: https://www.leventhalmap.org/exhibitions
+  - type: footer-link
+    name: Visit in Person
+    link_relation: 
+    url: https://www.leventhalmap.org/visit
+  - type: footer-link
+    name: Privacy Policy
+    link_relation: privacy-policy
+    url: https://www.leventhalmap.org/privacy/
+
+# ------------------------------------------------------------------------------
+# Subjects
+# ------------------------------------------------------------------------------
+
+subject:
+  - type: keywords
+    name: GIS, computer cartography, 
+
+# ------------------------------------------------------------------------------
+# Revision History
+# ------------------------------------------------------------------------------
+
+revision_history:
+  - date:
+    summary:
+
+repository_url:
+
+# ------------------------------------------------------------------------------
+# Promo Image
+# ------------------------------------------------------------------------------
+
+promo_image: static-cover.jpg
