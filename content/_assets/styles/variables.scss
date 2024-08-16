@@ -6,7 +6,7 @@
 // To avoid errors, variables names should not be changed or deleted, and be
 // sure to leave the colons (:) and semi-colons (;) in place.
 
-$accent-color: null;
+$accent-color: $purple;
 $content-background-color: null; // main text area background color
 $secondary-background-color: null; // only for modern theme
 
@@ -26,6 +26,11 @@ $ibm-sans: 'IBM Plex Sans Condensed', sans-serif;
 $noto-sans: 'Noto Sans', sans-serif;
 $noto-serif: 'Noto Serif', serif;
 $times-serif: Times, serif;
+
+$unibody-8-new: "unibody-8-new", sans-serif;
+$ibm-plex-mono: "ibm-plex-mono",sans-serif;
+$ibm-plex-sans: "ibm-plex-sans",sans-serif;
+$ibm-plex-sans-condensed: "ibm-plex-sans-condensed",sans-serif;
 
 // Page typography
 // -----------------------------------------------------------------------------
@@ -53,7 +58,7 @@ $quire-entry-image-icons-color: $white;
 
 // Active link and table-row color
 // -----------------------------------------------------------------------------
-$quire-hover-color: $light-yellow;
+$quire-hover-color: $yellow;
 
 // Print/PDF stylesheet
 // -----------------------------------------------------------------------------
@@ -78,9 +83,9 @@ $print-entry-image-display: all; // first | all
 // Themes
 // -----------------------------------------------------------------------------
 // Declare theme variables
-$quire-primary-font: null; // body and menu text
-$quire-headings-font: null; // headings
-$quire-footnotes-font: null; // footnotes and page backmatter
+$quire-primary-font: $ibm-plex-sans; // body and menu text
+$quire-headings-font: $unibody-8-new; // headings
+$quire-footnotes-font: $ibm-plex-sans-condensed; // footnotes and page backmatter
 $quire-navigation-font: null; // navbar and next/prev buttons
 
 @if $theme == classic {
@@ -95,7 +100,7 @@ $quire-navigation-font: null; // navbar and next/prev buttons
 } @else {
   // Modern Theme (default)
   $quire-primary-font: $noto-sans !default;
-  $quire-headings-font: $ibm-sans !default;
+  $quire-headings-font: $unibody-8-new !default;
   $quire-footnotes-font: $noto-serif !default;
   $quire-navigation-font: $noto-sans !default;
   $accent-color: $red !default;
@@ -132,8 +137,8 @@ $quire-navbar-text-color: null;
 // Cover colors
 // -----------------------------------------------------------------------------
 // Declare cover gradient colors (make them the same for a solid background)
-$quire-cover-color-1: null;
-$quire-cover-color-2: null;
+$quire-cover-color-1: #ac5ea5;
+$quire-cover-color-2: #ac5ea5;
 
 @if $theme == classic {
   $quire-cover-color-1: $accent-color !default;

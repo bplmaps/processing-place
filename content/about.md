@@ -1,5 +1,5 @@
 ---
-title: About
+title: About the Exhibition
 layout: page
 order: 503
 outputs:
