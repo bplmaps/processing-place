@@ -6,18 +6,18 @@ outputs:
   - html
 ---
 
-This is a starter theme for [Quire](https://gettypubs.github.io/quire/), a multiformat digital publishing framework. Quire can be used to generate a web book, EPUB and MOBI e-books, and a PDF optimized for print; all from a single set of text files. 
+*Processing Place* is an exhibition at the Leventhal Map & Education Center at the Boston Public Library.
 
-This starter theme allows for the quick customization of a few key styles to make you publication project your own.
+![Leventhal Center Logo](/_assets/images/LMEC-logo.webp)
 
-- Modern and Classic type styles
-- Cover and splash page images
-- Accent color
-- Background colors
-- Navigation bar style
+## Exhibition Credits
 
-By diving further into the included style sheets and layout templates, there’s almost no limit to what can be done.
+**Exhibition Curators**
+Ian Spangler, PhD
+Emily Bowe
 
-The text excerpts included in this starter theme come from *Walker Evans: Catalogue of the Collection* by Judith Keller (Getty Publications, 1995) available for free download in the Getty’s [Virtual Library](https://www.getty.edu/publications/virtuallibrary/0892363177.html); *In Focus: Dorothea Lange* (Getty Publications, 2002); and from the J. Paul Getty Museum online collection records.
+**Editorial Curator**   
+Garrett Dash Nelson
 
-The images included come from the J. Paul Getty Museum online collection records under their Open Content Program. The pictures of [Dorothea Lange](https://www.loc.gov/resource/fsa.8b27245/) and [Walker Evans](https://www.loc.gov/item/2017728481/) used in the Introduction, come from the Library of Congress Prints and Photographs Division.
+**Exhibition Design**
+Joelle Riffle
