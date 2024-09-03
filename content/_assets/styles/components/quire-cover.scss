@@ -191,7 +191,14 @@
           line-height: 2em;
           font-family: $quire-primary-font;
         }
+        .visit-splash {
+          margin-top: 12px;
+          border: 2px dashed;
+          padding: 24px;
+          background: #e7cfe1;
+        }
       }
+      
       @media screen and (min-width: 1028px) {
         max-width: 900px;
         width: 900px;
