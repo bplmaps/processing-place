@@ -1,7 +1,7 @@
 ---
 title: About the Exhibition
 layout: page
-order: 503
+order: 999
 outputs:
   - html
 ---
