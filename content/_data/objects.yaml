@@ -1,16 +1,27 @@
 object_display_order:
-  - artist
-  - year
+  - creator
+  - date
   - dimensions
   - medium
   - location
 
 object_list:
 
+  - id: "01-1-kenya"
+    "Chinese Title": 地理圖
+    "Pinyin Title": Dili tu
+    "English Title": Geographical Map
+    creator: "Huang Sheng 黃裳 (1146--94, maker) and Wang Zhiyuan 王致远 (1193--1257, stone carver)"
+    date: "Southern Song dynasty, Lizong period (1224-64), dated 1247"
+    medium: Rubbing from stone stele, ink on paper; modern reproduction
+    location: Private Collection
+    figure:
+      - id: "dili-tu"
+
   - id: 1
     title: Human Erosion in California / Migrant Mother
-    artist: Dorothea Lange
-    year: 1936
+    creator: Dorothea Lange
+    date: 1936
     medium: Gelatin silver print
     dimensions: 34.1 cm × 26.8 cm (13 <sup>7</sup>⁄<sub>16</sub> in × 10 <sup>9</sup>⁄<sub>16</sub> in.)
     location: J. Paul Getty Museum

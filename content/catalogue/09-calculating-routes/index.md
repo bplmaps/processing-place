@@ -6,18 +6,6 @@ menu: false
 toc: false
 ---
 
-##### How did computers go from a novelty to a necessity in the cartographic process—and how did mapmakers manage to compress the chaos of the world into a computer screen?
+<span class="body-large">"Turn left on Boylston Street" or "walk about a quarter mile past the big oak tree" are directions that make perfect sense to a person, but are difficult for a computer to understand. How have cartographers used computer processes for that quintessential role of maps: getting from one place to another?</span>
 
-In 1959, before the so-called “computer revolution” of the 1960s, the geographer
-Waldo Tobler identified three likely possibilities for automation in cartography: the
-map as data storage, the map as a computer input, and the map as a processing
-output. Tobler’s early guesses turned out to be correct, but not everyone agreed at
-the time. Even though computers were becoming more widely available for research
-and commercial purposes, there was little agreement about whether computers
-would significantly change how people made maps. Some practitioners thought
-computer mapping was just a fad. These machines, they suspected, could never
-replace the human hand. Others simply balked at the prohibitive expense at a time
-when computer calculations might take tens of thousands of dollars to process
-and print. During this era of hybrid mapmaking techniques, experimentation was
-the name of the game—and year by year, as the methods got cheaper and more
-accessible, more people wanted to play.
+If you used the "maps app" on your phone to find your way around today, then you’re probably in good company. These pocket-sized, superpowered wayfinding machines have become so ubiquitous that they fade into the background of our everyday lives, only coming into clear focus when something with them goes wrong. Of course, these modern map apps are descendants of earlier, pre-**GPS** navigational tools. Many such tools were complex, multipart systems; in some cases, they were built as kiosks into the landscape, while in others, they would be physically installed in a car. The maps and photographs on this wall highlight a series of hybrid moments in calculating routes. By tracing how wayfinding was translated into the memory of computer **software** and **hardware**, we can gain a better understanding of our navigational practices today.

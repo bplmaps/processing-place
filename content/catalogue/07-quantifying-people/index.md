@@ -6,18 +6,6 @@ menu: false
 toc: false
 ---
 
-##### How did computers go from a novelty to a necessity in the cartographic process—and how did mapmakers manage to compress the chaos of the world into a computer screen?
+<span class="body-large">Cities, towns, and states depend on geographic inquiry to understand not only where people live, but how they live: what they do for work, how much money they earn, and identity characteristics like race, gender, and sexuality. How did computer-assisted mapping change this process?</span>
 
-In 1959, before the so-called "computer revolution" of the 1960s, the geographer
-Waldo Tobler identified three likely possibilities for automation in cartography: the
-map as data storage, the map as a computer input, and the map as a processing
-output. Tobler’s early guesses turned out to be correct, but not everyone agreed at
-the time. Even though computers were becoming more widely available for research
-and commercial purposes, there was little agreement about whether computers
-would significantly change how people made maps. Some practitioners thought
-computer mapping was just a fad. These machines, they suspected, could never
-replace the human hand. Others simply balked at the prohibitive expense at a time
-when computer calculations might take tens of thousands of dollars to process
-and print. During this era of hybrid mapmaking techniques, experimentation was
-the name of the game—and year by year, as the methods got cheaper and more
-accessible, more people wanted to play.
+Throughout the 1970s, U.S. government agencies took an active role in designing and deploying more sophisticated and less expensive computer-assisted mapmaking tools. By understanding how people’s lives are geographically organized---in other words, by *mapping* them---government agencies are able to identify patterns and measure where resources should be allocated. At the same time, any project that counts people runs the risk of reducing them into mere numbers, forgetting their social context and shared histories. From Boston to Milwaukee, the maps on this wall highlight the promises and pitfalls of quantifying people.

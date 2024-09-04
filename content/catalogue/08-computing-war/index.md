@@ -6,18 +6,6 @@ menu: false
 toc: false
 ---
 
-##### How did computers go from a novelty to a necessity in the cartographic process—and how did mapmakers manage to compress the chaos of the world into a computer screen?
+<span class="body-large">Computers introduced previously untold degrees of precision into map production. Nowhere was this impact felt more poignantly, or with more devastating geographical consequences, than military conflict.</span>
 
-In 1959, before the so-called “computer revolution” of the 1960s, the geographer
-Waldo Tobler identified three likely possibilities for automation in cartography: the
-map as data storage, the map as a computer input, and the map as a processing
-output. Tobler’s early guesses turned out to be correct, but not everyone agreed at
-the time. Even though computers were becoming more widely available for research
-and commercial purposes, there was little agreement about whether computers
-would significantly change how people made maps. Some practitioners thought
-computer mapping was just a fad. These machines, they suspected, could never
-replace the human hand. Others simply balked at the prohibitive expense at a time
-when computer calculations might take tens of thousands of dollars to process
-and print. During this era of hybrid mapmaking techniques, experimentation was
-the name of the game—and year by year, as the methods got cheaper and more
-accessible, more people wanted to play.
+Especially in the years following World War II, the needs of the U.S. military significantly influenced how computer cartography developed. In turn, advancements in computer mapping technology produced new horizons for what the military could do. From the beaches of Massachusetts to the ghost shores of Elugelab, from the trails of a rocket to the shape of the earth after it explodes, the maps on this wall explore how computer cartographers have leveraged spatial data to compute war.

@@ -1,0 +1,17 @@
+.body-large {
+    font-size: $heading-5-font-size;
+    line-height: 1;  
+    margin-bottom: 1rem;
+    color: background-color-text-classic($secondary-background-color);
+    @media print {
+      color: $print-text-color;
+    }
+    font-family: $quire-primary-font;
+    @if $quire-headings-font == $ibm-sans {
+      letter-spacing: -0.025em;
+    }
+
+    &:not(:first-child) {
+      margin-top: 1rem;
+    }
+  }

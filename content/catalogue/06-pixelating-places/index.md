@@ -6,18 +6,6 @@ menu: false
 toc: false
 ---
 
-##### How did computers go from a novelty to a necessity in the cartographic process—and how did mapmakers manage to compress the chaos of the world into a computer screen?
+<span class="body-large">For a long time, geographers and scientists have gathered information from afar, relying on technologies like telescopes or balloon photography. How did the rise of computer-aided cartography change this process of remote sensing?</span>
 
-In 1959, before the so-called “computer revolution” of the 1960s, the geographer
-Waldo Tobler identified three likely possibilities for automation in cartography: the
-map as data storage, the map as a computer input, and the map as a processing
-output. Tobler’s early guesses turned out to be correct, but not everyone agreed at
-the time. Even though computers were becoming more widely available for research
-and commercial purposes, there was little agreement about whether computers
-would significantly change how people made maps. Some practitioners thought
-computer mapping was just a fad. These machines, they suspected, could never
-replace the human hand. Others simply balked at the prohibitive expense at a time
-when computer calculations might take tens of thousands of dollars to process
-and print. During this era of hybrid mapmaking techniques, experimentation was
-the name of the game—and year by year, as the methods got cheaper and more
-accessible, more people wanted to play.
+Remote sensing was practiced as early as the 1850s, when hobbyists and photographers affixed cameras to balloons and kites and sent them into the air to capture so-called "bird’s eye views." These methods could reveal cities, even whole regions, in a single image---but our bird’s eye views got even sharper in the mid-twentieth century, when launching satellites into the earth’s orbit allowed us to observe landscapes from a much more remote perspective.
