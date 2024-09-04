@@ -1,12 +1,12 @@
 ---
 title: Spatial Experiments
-layout: splash
+layout: page
 order: 101
 menu: false
 toc: true
 ---
 
-##### How did computers go from a novelty to a necessity in the cartographic process—and how did mapmakers manage to compress the chaos of the world into a computer screen?
+<span class="body-large">How did computers go from a novelty to a necessity in the cartographic process—and how did mapmakers manage to compress the chaos of the world into a computer screen?</span>
 
 In 1959, before the so-called “computer revolution” of the 1960s, the geographer
 Waldo Tobler identified three likely possibilities for automation in cartography: the

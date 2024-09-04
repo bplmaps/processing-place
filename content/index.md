@@ -7,7 +7,7 @@ toc: false
 image: ProP_web_cover.png
 ---
 
-##### Today, the maps that show up most often in our everyday lives are made by computers. Even the simplest of these rely on vast databases of geographic information and complex systems of analysis and visualization. In this exhibition, we look at how computers and cartography fused together over the past century—and how they redrew our world in the process.
+###### Today, the maps that show up most often in our everyday lives are made by computers. Even the simplest of these rely on vast databases of geographic information and complex systems of analysis and visualization. In this exhibition, we look at how computers and cartography fused together over the past century—and how they redrew our world in the process.
 
 From surveying Boston’s shoreline to counting whales in the Atlantic Ocean, cartographers have always “processed” information about places. However, in the middle of the twentieth century, they started using what we now recognize as modern computers to make maps. The introduction of these technologies shifted the possibilities of what cartographers—and eventually, anyone with a smartphone—could ask about the world around them.
 

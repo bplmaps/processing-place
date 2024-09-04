@@ -6,7 +6,7 @@
 // To avoid errors, variables names should not be changed or deleted, and be
 // sure to leave the colons (:) and semi-colons (;) in place.
 
-$accent-color: $purple;
+$accent-color: $layering-data;
 $content-background-color: null; // main text area background color
 $secondary-background-color: null; // only for modern theme
 
@@ -58,7 +58,7 @@ $quire-entry-image-icons-color: $white;
 
 // Active link and table-row color
 // -----------------------------------------------------------------------------
-$quire-hover-color: $yellow;
+$quire-hover-color: $spatial-experiments;
 
 // Print/PDF stylesheet
 // -----------------------------------------------------------------------------
@@ -137,8 +137,8 @@ $quire-navbar-text-color: null;
 // Cover colors
 // -----------------------------------------------------------------------------
 // Declare cover gradient colors (make them the same for a solid background)
-$quire-cover-color-1: #ac5ea5;
-$quire-cover-color-2: #ac5ea5;
+$quire-cover-color-1: $layering-data;
+$quire-cover-color-2: $layering-data;
 
 @if $theme == classic {
   $quire-cover-color-1: $accent-color !default;

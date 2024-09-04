@@ -1,7 +1,7 @@
 ---
-title: Contents
+epub: false
+title: Catalogue
 layout: table-of-contents
-order: 1
 presentation: list
-search: false
+order: 1
 ---
