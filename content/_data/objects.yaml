@@ -1,43 +1,33 @@
 object_display_order:
+  - title
   - creator
-  - date
+  - year
   - dimensions
-  - medium
   - location
 
 object_list:
 
-  - id: "01-1-kenya"
-    "Chinese Title": 地理圖
-    "Pinyin Title": Dili tu
-    "English Title": Geographical Map
-    creator: "Huang Sheng 黃裳 (1146--94, maker) and Wang Zhiyuan 王致远 (1193--1257, stone carver)"
-    date: "Southern Song dynasty, Lizong period (1224-64), dated 1247"
-    medium: Rubbing from stone stele, ink on paper; modern reproduction
-    location: Private Collection
+  - id: "kenya-fig3"
+    title: "Figure 3"
+    creator: "D.R.F. Taylor"
+    year: 1971
+    dimensions: "Unknown" 
+    location: "Middlebury College"
     figure:
-      - id: "dili-tu"
-
-  - id: 1
-    title: Human Erosion in California / Migrant Mother
-    creator: Dorothea Lange
-    date: 1936
-    medium: Gelatin silver print
-    dimensions: 34.1 cm × 26.8 cm (13 <sup>7</sup>⁄<sub>16</sub> in × 10 <sup>9</sup>⁄<sub>16</sub> in.)
-    location: J. Paul Getty Museum
-    link:  https://www.getty.edu/art/collection/object/108E2E
+      - id: "kenya-fig3"
+  - id: "kenya-fig21"
+    title: "Figure 3"
+    creator: "D.R.F. Taylor"
+    year: 1971
+    dimensions: "Unknown" 
+    location: "Middlebury College"
     figure:
-      - id: "cat-1"
-
-  - id: 2
-    title: Bud Fields and His Wife Ivy, and His Daughter Ellen, Hale County, Alabama
-    artist: Walker Evans
-    year: 1936
-    medium: Gelatin silver print
-    dimensions: 19.4 x 24.4 (7 <sup>5</sup>⁄<sub>8</sub> x 9 <sup>5</sup>⁄<sub>8</sub> in.)
-    location: J. Paul Getty Museum
-    link: https://www.getty.edu/art/collection/object/104A2K
+      - id: "kenya-fig21"
+  - id: "computer-room-scene"
+    title: "Computer room scene: woman operating a Hollerith card machine, part of a Honeywell Model 400 mainframe set up, ca. 1965"
+    creator: "Rowland Scherman"
+    year: "ca. 1965"
+    dimensions: "35 mm." 
+    location: "University of Massachusetts Amherst"
     figure:
-      - id: "cat-2"
-      - id: "cat-2-b"
-      - id: "cat-2-c"
+      - id: "computer-room-scene"

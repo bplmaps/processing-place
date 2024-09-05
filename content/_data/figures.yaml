@@ -1,6 +1,8 @@
 figure_list:
 
-  - id: ""
-    src: figures/lange.jpg
-    caption: "*Dorothea Lange, Resettlement Administration photographer, in California*, 1936."
-    credit: "Library of Congress Prints and Photographs Division"
+  - id: "kenya-fig3"
+    src: "https://s3.us-east-2.wasabisys.com/lmec-public-files/exhibitions/processing-place/v1_kenya1/info.json"
+  - id: "kenya-fig21"
+    src: "figures/v1_kenya2.png"
+  - id: "computer-room-scene"
+    canvasId: https://credo.library.umass.edu/iiif/muph084-b001-f090-sl001-i015-001.tif/info.json
