@@ -3,7 +3,7 @@ title: Pixelating Places
 layout: page
 order: 601
 menu: false
-toc: false
+toc: true
 ---
 
 <span class="body-large">For a long time, geographers and scientists have gathered information from afar, relying on technologies like telescopes or balloon photography. How did the rise of computer-aided cartography change this process of remote sensing?</span>

@@ -3,7 +3,7 @@ title: Quantifying People
 layout: page
 order: 701
 menu: false
-toc: false
+toc: true
 ---
 
 <span class="body-large">Cities, towns, and states depend on geographic inquiry to understand not only where people live, but how they live: what they do for work, how much money they earn, and identity characteristics like race, gender, and sexuality. How did computer-assisted mapping change this process?</span>
