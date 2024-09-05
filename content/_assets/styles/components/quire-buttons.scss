@@ -30,8 +30,8 @@
     -webkit-transition: all .25s ease;
     transition: all .25s ease;
     font-size: 1rem;
-    border: 1px solid button-color($content-background-color);
-    color: button-color($content-background-color);
+    border: 1px solid var(--bgc, black);
+    color: var(--bgc, black);
 
     a {
       display: inline-block;
@@ -47,11 +47,11 @@
       margin-left: 0;
       margin-right: .55rem;
       a {
-        color: button-color($secondary-background-color);
+        color: var(--bgc, black);
         margin-right: .5rem;
       }
       svg {
-        fill: button-color($secondary-background-color);
+        fill: var(--bgc,);
         margin-right: .5rem;
       }
     }
@@ -68,13 +68,14 @@
     }
 
     &.next {
-      background-color: button-color($secondary-background-color);
+      background-color: var(--bgc, black);
 
       svg {
         fill: findColorInvert(button-color($secondary-background-color));
       }
       &:hover {
-        background-color: link-hover-color($secondary-background-color) !important;
+        background-color: var(--bgc, black) !important;
+        filter: brightness(80%);
       }
       a {
         color: findColorInvert(button-color($secondary-background-color));
@@ -82,10 +83,11 @@
     }
 
     &:hover {
-      background-color: link-hover-color($secondary-background-color);
-      border-color: link-hover-color($secondary-background-color);
+      background-color: var(--bgc, black);
+      filter: brightness(110%);
+      border-color: findColorInvert(var(--bgc, black));
       a {
-        color: findColorInvert($accent-color);
+        color: findColorInvert(var(--bgc, black));
       }
       svg {
         fill: findColorInvert($accent-color);

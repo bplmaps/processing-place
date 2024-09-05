@@ -45,10 +45,10 @@ Entry content, including entry image and tombstone data
     {% endif %}
   </div>
 
-  <div class="quire-entry__content">
+  <div class="quire-entry__content" style="--bgc: {{ theme_color_secondary | strip | escape }};">
     <header class="quire-entry__header">
       <div class="container">
-        <h1 class="quire-page__header__title highlight" id="page-header-{{ page.filePathStem }}">
+        <h1 class="quire-page__header__title highlight" id="page-header-{{ page.filePathStem }}" style="--bgc: {{ theme_color_primary | strip | escape }};">
           {% pageTitle label=label, title=title, subtitle=subtitle %}
         </h1>
         <div class="quire-page__header__contributor">
@@ -65,7 +65,7 @@ Entry content, including entry image and tombstone data
 
     <section class="section quire-page__content">
       <div class="container">
-        <div class="content">
+        <div class="content" style="--bgc: {{ theme_color_secondary | strip | escape }}; --crosslink: {{ crosslink_color | strip | escape }};">
           {{ content }}
           {% bibliography citations %}
         </div>

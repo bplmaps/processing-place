@@ -290,7 +290,22 @@ html {
           h4,
           h5,
           h6 {
+            text-align: justify;
+            margin-right: 10%;
+            font-family: $quire-headings-font;
+            font-size: 0.8em;
             position: relative;
+            padding: 0px; /* Add padding if needed for spacing */
+            line-height: 2; /* Adjust based on your text */
+            background-image: linear-gradient(
+              to bottom,
+              #ffeb4f 0%,
+              #ffeb4f 80%,
+              transparent 20%,
+              transparent 100%
+            );
+            background-size: 100% 2em; /* Adjust based on your line-height */
+            background-repeat: repeat-y;
             @media screen {
               &:first-child:before {
                 @if (lightness($content-background-color) < 50) {

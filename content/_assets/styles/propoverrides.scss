@@ -1,3 +1,29 @@
+.pullquote-citation {
+  position: relative;
+  text-align: right;
+  padding-left: 15%;
+  padding-right: 10%;
+  font-size: 0.8em;
+  margin-bottom: 2em
+}
+
+.content strong {
+  color: var(--bgc, black);
+}
+
+.themelink {
+  // color: #333333 !important; 
+  // background-color: var(--crosslink, #000000);  /* Default color is black */
+  font-family: $quire-headings-font;
+  font-size: 0.8em;
+  padding: 2px 4px;
+  border-radius: 3px;
+  &:hover {
+    background-color: $quire-hover-color;
+    color: background-color-text($quire-hover-color);
+  }
+}
+
 .body-large {
     font-size: $heading-5-font-size;
     line-height: 1;  
