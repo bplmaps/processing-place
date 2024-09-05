@@ -1,3 +1,25 @@
+.invitation {
+  overflow: hidden;
+  text-transform: capitalize;
+  border: dashed $off-black-semi-transparent; 
+  box-shadow: 20px 20px 0px 0px var(--bgc, black);
+  margin: 10%;
+  font-family: $quire-primary-font;
+  font-size: 0.8em;
+  position: relative;
+  padding: 20px; /* Add padding if needed for spacing */ 
+  line-height: 2; /* Adjust based on your text */
+  background-image: linear-gradient(
+    to bottom,
+    #ffeb4f 0%,
+    #ffeb4f 80%,
+    transparent 20%,
+    transparent 100%
+  );
+  background-size: 100% 2em; /* Adjust based on your line-height */
+  background-repeat: repeat-y;
+}
+
 .pullquote-citation {
   position: relative;
   text-align: right;
