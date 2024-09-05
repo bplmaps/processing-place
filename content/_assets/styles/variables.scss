@@ -86,6 +86,7 @@ $print-entry-image-display: all; // first | all
 $quire-primary-font: $ibm-plex-sans; // body and menu text
 $quire-headings-font: $unibody-8-new; // headings
 $quire-footnotes-font: $ibm-plex-sans-condensed; // footnotes and page backmatter
+$quire-tombstone-font: $ibm-plex-mono; // tombstones
 $quire-navigation-font: null; // navbar and next/prev buttons
 
 @if $theme == classic {

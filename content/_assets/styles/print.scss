@@ -389,6 +389,7 @@ $print-trim: $print-bleed * 2;
     column-count: 1;
     margin: 0 auto .25in;
     max-width: $print-base-text-column-width;
+    font-family: $quire-headings-font;
   }
 
   @media screen {
