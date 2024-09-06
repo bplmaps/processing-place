@@ -2,7 +2,7 @@
 title: Layering Data
 layout: page
 order: 201
-menu: false
+menu: true
 toc: true
 theme_color_primary: "#ac5ea5"
 theme_color_secondary: "#ac5ea5"

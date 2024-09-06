@@ -132,10 +132,6 @@
         &:last-child {
           margin-bottom: 1em;
         }
-        &:hover {
-          background-color: var(--bgc);
-          color: #fff !important;
-        }
       }
       @media print {
         .page-item {
@@ -161,6 +157,8 @@
         }
         &:hover {
           border-bottom: 1px solid link-hover-color($secondary-background-color);
+          background-color: var(--bgc);
+          color: $off-black !important;
         }
       }
     }
@@ -205,8 +203,9 @@
         transition: all .25s ease;
       }
       &:hover {
-        background-color: inherit;
-        color: link-hover-color($secondary-background-color);
+        background-color: var(--bgc);
+        color: $off-black !important;
+        // color: link-hover-color($secondary-background-color);
         .arrow {
           transform: translateX(.75em);
           -webkit-transition: all .25s ease;

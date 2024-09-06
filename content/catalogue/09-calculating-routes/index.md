@@ -2,7 +2,7 @@
 title: Calculating Routes
 layout: page
 order: 901
-menu: false
+menu: true
 toc: true
 theme_color_primary: "#00b7b7"
 theme_color_secondary: "#00b7b7"

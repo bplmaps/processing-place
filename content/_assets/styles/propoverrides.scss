@@ -77,8 +77,8 @@
   border-radius: 3px;
   overflow: hidden;
   &:hover {
-    color: findColorInvert(var(--crosslink, $off-black)) !important;
     filter: brightness(70%);
+    color: findColorInvert(var(--crosslink, $off-black)) !important;
   }
 }
 

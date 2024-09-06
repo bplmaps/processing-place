@@ -2,7 +2,7 @@
 title: Catalogue
 layout: table-of-contents
 order: 100
-menu: false
+menu: true
 toc: true
 theme_color_primary: "#ffda00"
 theme_color_secondary: "#ac5ea5"

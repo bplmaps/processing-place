@@ -2,7 +2,7 @@
 title: Pixelating Places
 layout: page
 order: 601
-menu: false
+menu: true
 toc: true
 theme_color_primary: "#f2a61e"
 theme_color_secondary: "#f2a61e"

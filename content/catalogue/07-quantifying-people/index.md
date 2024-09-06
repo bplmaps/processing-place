@@ -2,7 +2,7 @@
 title: Quantifying People
 layout: page
 order: 701
-menu: false
+menu: true
 toc: true
 theme_color_primary: "#77c044"
 theme_color_secondary: "#77c044"

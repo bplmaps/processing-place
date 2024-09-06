@@ -2,7 +2,7 @@
 title: Transforming Tools
 layout: page
 order: 401
-menu: false
+menu: true
 toc: true
 theme_color_primary: "#3964af"
 theme_color_secondary: "#3964af"

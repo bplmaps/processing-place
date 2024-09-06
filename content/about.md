@@ -1,11 +1,12 @@
 ---
 title: About the Exhibition
 layout: page
-order: 999
+order: 1000
 outputs:
   - html
 theme_color_primary: "#00a14f"
 theme_color_secondary: "#00a14f"
+menu: true
 ---
 
 <div class="dedication">

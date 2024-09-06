@@ -2,7 +2,7 @@
 title: Cover
 layout: cover
 order: 1
-menu: false
+menu: true
 toc: false
 image: ProP_web_cover.png
 theme_color_primary: "#ac5ea5"

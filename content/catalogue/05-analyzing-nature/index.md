@@ -2,7 +2,7 @@
 title: Analyzing Nature
 layout: page
 order: 501
-menu: false
+menu: true
 toc: true
 theme_color_primary: "#cd3a95"
 theme_color_secondary: "#cd3a95"

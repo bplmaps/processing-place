@@ -2,7 +2,7 @@
 title: Computing War
 layout: page
 order: 801
-menu: false
+menu: true
 toc: true
 theme_color_primary: "#f04e29"
 theme_color_secondary: "#f04e29"
