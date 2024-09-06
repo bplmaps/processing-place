@@ -1,23 +1,34 @@
+.entry-title {
+  font-size: $heading-1-font-size;
+  font-weight: 100;
+  line-height: $heading-1-line-height;
+  margin: 1rem 0;
+}
+
 .invitation {
   overflow: hidden;
+  text-align: justify;
   text-transform: capitalize;
-  border: dashed $off-black-semi-transparent; 
+  border: dashed 1px var(--bgc); 
   box-shadow: 20px 20px 0px 0px var(--bgc, black);
   margin: 10%;
   font-family: $quire-primary-font;
   font-size: 0.8em;
   position: relative;
-  padding: 20px; /* Add padding if needed for spacing */ 
-  line-height: 2; /* Adjust based on your text */
+  padding: 30px;
+  line-height: 2;
   background-image: linear-gradient(
     to bottom,
     #ffeb4f 0%,
-    #ffeb4f 80%,
+    #ffeb4f 90%,
     transparent 20%,
     transparent 100%
   );
-  background-size: 100% 2em; /* Adjust based on your line-height */
+  background-size: 100% 2em;
+  background-position: 10px 30px; /* Padding on top: 30px */
   background-repeat: repeat-y;
+  background-clip: content-box; /* Prevents yellow bars from going into padding */
+
 }
 
 .pullquote-citation {

@@ -4,7 +4,7 @@ classes:
 layout: base.11ty.js
 description: Single page default template
 ---
-
+<div style="--bgc: {{ theme_color_primary | strip | escape }};">
 {% pageHeader
   byline_format=byline_format,
   image=image,
@@ -13,8 +13,9 @@ description: Single page default template
   subtitle=subtitle,
   title=title
 %}
+</div>
 {% if content %}
-<section class="section quire-page__content">
+<section class="section quire-page__content" >
   <div class="container">
     <div class="content" style="--bgc: {{ theme_color_primary | strip | escape }}; --crosslink: {{ crosslink_color | strip | escape }}; --shadow {{ theme_color_primary | strip | escape }};">
       {{ content }}

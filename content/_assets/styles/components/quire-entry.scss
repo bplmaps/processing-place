@@ -350,7 +350,9 @@ $image-divider-height: 16px;
       padding: 1em 2rem 0;
       margin-bottom: 1rem;
       position: relative;
-      padding: 0px; /* Add padding if needed for spacing */
+      width: 90%;
+      text-align: left;
+      padding: 20px; /* Add padding if needed for spacing */
       line-height: 2; /* Adjust based on your text */
       background-image: linear-gradient(
         to bottom,
@@ -359,8 +361,10 @@ $image-divider-height: 16px;
         transparent 20%,
         transparent 100%
       );
-      background-size: 100% 2em; /* Adjust based on your line-height */
+      background-size: 100% 2em;
+      background-position: 10px 30px; /* Padding on top: 30px */
       background-repeat: repeat-y;
+      background-clip: content-box; /* Prevents yellow bars from going into padding */
       // background-color: var(--bgc, black);
       // @media print {
       //   padding: 0;

@@ -182,7 +182,13 @@
 
     &.quire-previous-page {
       a {
-        padding: 0 1.5em 0 0.5em;
+        padding: 0 0.5em 0 1.5em;
+        display:inline-block;
+        overflow:hidden;
+        white-space:nowrap;
+        font-style: normal;
+        text-overflow: ellipsis;
+        width:200px;
       }
       svg {
         margin-right: 1em;
@@ -193,6 +199,12 @@
       font-style: normal;
       a {
         padding: 0 0.5em 0 1.5em;
+        display:inline-block;
+        overflow:hidden;
+        white-space:nowrap;
+        font-style: normal;
+        text-overflow: ellipsis;
+        width:200px;
       }
       svg {
         margin-left: 0.25em;
