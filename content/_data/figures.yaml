@@ -12,30 +12,33 @@ figure_list:
   - id: "lake-istokpoga"
     manifestId: https://www.loc.gov/item/78693106/manifest.json
     canvasId: https://tile.loc.gov/image-services/iiif/service:gmd:gmd393:g3932:g3932i:ct010264
-  - id: "bangladesh"
+  - id: "bangladesh-housing"
     src: "figures/w1_bd2.tif"
     zoom: true
-  - id: "understanding-can1"
+  - id: "bangladesh-foreword"
+    src: "figures/w1_bd1.tif"
+    zoom: true
+  - id: "understanding-canada1"
     manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
     canvasId: https://iiif.archivelab.org/iiif/31761115538407$2
-  - id: "understanding-can2"
+  - id: "understanding-canada2"
     manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
     canvasId: https://iiif.archivelab.org/iiif/31761115538407$3
   - id: "canada-soil"
     manifestId: https://iiif.archive.org/iiif/ARDA-83H-1967/manifest.json
     canvasId: https://iiif.archivelab.org/iiif/ARDA-83H-1967
   - id: "chicago-fig18"
-    manifestId: https://iiif.archive.org/iiif/chicagoareatrans01chic/manifest.json
-    canvasId: https://iiif.archivelab.org/iiif/chicagoareatrans01chic$68
+    src: "figures/w5_chicago-18.tif"
+    zoom: true
   - id: "chicago-fig20"
-    manifestId: https://iiif.archive.org/iiif/chicagoareatrans01chic/manifest.json
-    canvasId: https://iiif.archivelab.org/iiif/chicagoareatrans01chic$70
+    src: "figures/w5_chicago-20.tif"
+    zoom: true
   - id: "chicago-fig22"
-    manifestId: https://iiif.archive.org/iiif/chicagoareatrans01chic/manifest.json
-    canvasId: https://iiif.archivelab.org/iiif/chicagoareatrans01chic$72
+    src: "figures/w5_chicago-22.tif"
+    zoom: true
   - id: "chicago-fig52"
-    manifestId: https://iiif.archive.org/iiif/chicagoareatrans01chic/manifest.json
-    canvasId: https://iiif.archivelab.org/iiif/chicagoareatrans01chic$126
+    src: "figures/w5_chicago-52.tif"
+    zoom: true
   - id: "city-signs46"
     src: "figures/w5_directomat1.tif"
     zoom: true
@@ -66,7 +69,7 @@ figure_list:
   - id: "space-shuttle2"
     manifestId: https://www.digitalcommonwealth.org/search/commonwealth:1544hz92f/manifest.json
     canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:pz50p594w
-  - id: "DEP"
+  - id: "dep"
     manifestId: https://www.digitalcommonwealth.org/search/commonwealth:1831hz479/manifest.json
     canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:1831hz479
   - id: "nomans-land"
