@@ -1,3 +1,28 @@
+.dedication {
+  margin-bottom: 10%;
+  overflow: hidden;
+  border: dashed 1px var(--bgc); 
+  box-shadow: 20px 20px 0px 0px var(--bgc, black);
+  font-family: $quire-primary-font;
+  font-size: 1em;
+  position: relative;
+  padding: 30px;
+  line-height: 2;
+}
+
+.cover-button {
+  color: black;
+}
+
+.contents-banner {
+  background-color: var(--bgc);
+  background-size: 15px 15px;
+  background-image:
+    linear-gradient(to right, $off-black 1px, transparent 1px),
+    linear-gradient(to bottom, $off-black 1px, transparent 1px);
+  color: background-color-text-classic($secondary-background-color);
+}
+
 .entry-title {
   font-size: $heading-1-font-size;
   font-weight: 100;
@@ -8,7 +33,6 @@
 .invitation {
   overflow: hidden;
   text-align: justify;
-  text-transform: capitalize;
   border: dashed 1px var(--bgc); 
   box-shadow: 20px 20px 0px 0px var(--bgc, black);
   margin: 10%;
@@ -25,10 +49,9 @@
     transparent 100%
   );
   background-size: 100% 2em;
-  background-position: 10px 30px; /* Padding on top: 30px */
+  background-position: 10px 30px;
   background-repeat: repeat-y;
-  background-clip: content-box; /* Prevents yellow bars from going into padding */
-
+  background-clip: content-box;
 }
 
 .pullquote-citation {
@@ -47,15 +70,15 @@
 .crosslink {
   position: relative;
   background-color: var(--crosslink, #fff);
-  color: findColorInvert(var(--crosslink, $off-black));
+  color: findColorInvert(var(--crosslink, $off-black)) !important;
   font-family: $quire-headings-font;
   font-size: 0.8em;
   padding: 2px 4px;
   border-radius: 3px;
   overflow: hidden;
   &:hover {
+    color: findColorInvert(var(--crosslink, $off-black)) !important;
     filter: brightness(70%);
-
   }
 }
 

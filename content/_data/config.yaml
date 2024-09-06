@@ -46,6 +46,8 @@ localization:
 menuType: full # full | brief
 
 navigation:
+  coverButtonAbout: About the exhibition
+  coverButtonNext: Enter the exhibition
   nextButtonText: Next
   prevButtonText: Back
 
