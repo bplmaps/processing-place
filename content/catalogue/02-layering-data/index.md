@@ -5,6 +5,7 @@ order: 201
 menu: false
 toc: true
 theme_color_primary: "#ac5ea5"
+theme_color_secondary: "#ac5ea5"
 ---
 
 <span class="body-large">In computer mapping, the cartographic convention of "layering" is an essential metaphor---but how did this practice work before computers, and how did it change when we started turning layers into digital data?</span>

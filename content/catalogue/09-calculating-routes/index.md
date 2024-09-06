@@ -4,6 +4,8 @@ layout: page
 order: 901
 menu: false
 toc: true
+theme_color_primary: "#00b7b7"
+theme_color_secondary: "#00b7b7"
 ---
 
 <span class="body-large">"Turn left on Boylston Street" or "walk about a quarter mile past the big oak tree" are directions that make perfect sense to a person, but are difficult for a computer to understand. How have cartographers used computer processes for that quintessential role of maps: getting from one place to another?</span>

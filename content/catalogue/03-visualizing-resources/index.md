@@ -4,6 +4,8 @@ layout: page
 order: 301
 menu: false
 toc: true
+theme_color_primary: "#00a14f"
+theme_color_secondary: "#00a14f"
 ---
 
 <span class="body-large">One of the most important early uses of computers in cartography was to map and analyze the distribution of natural resources. The techniques and systems created for this kind of work became fundamental components, to this day, of computer mapping systems in general.</span>

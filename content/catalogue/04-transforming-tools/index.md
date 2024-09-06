@@ -4,6 +4,8 @@ layout: page
 order: 401
 menu: false
 toc: true
+theme_color_primary: "#3964af"
+theme_color_secondary: "#3964af"
 ---
 
 <span class="body-large">Maps have always been influenced and constrained by the physical tools that people used to produce them. Computers didn’t simply do away with hundreds of years of advances in mapmaking technology---they innovated, extended, and incorporated them.</span>

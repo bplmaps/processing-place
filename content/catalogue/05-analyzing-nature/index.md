@@ -4,6 +4,8 @@ layout: page
 order: 501
 menu: false
 toc: true
+theme_color_primary: "#cd3a95"
+theme_color_secondary: "#cd3a95"
 ---
 
 <span class="body-large">In the 1970s, lawmakers introduced waves of environmental legislation across the United States and Canada. The computer-assisted mapping techniques that emerged in their wake would go on to shape the future of **geographic information systems** (GIS) as we know them today.</span>
