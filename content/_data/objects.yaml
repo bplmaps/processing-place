@@ -119,7 +119,7 @@ object_list:
     link: https://digital.library.cornell.edu/catalog/ss:19343512
     figure:
       - id: "new-england-nuclear"
-  - id: "ivy-before"
+  - id: "ivy"
     title: "National Test Exercise - Operation Ivy"
     creator: "Federal Civil Defense Administration. Region I. 1951-1958"
     year: "April 5, 1954"
@@ -127,13 +127,6 @@ object_list:
     link: https://www.digitalcommonwealth.org/search/commonwealth:h128rw49h
     figure:
       - id: "operation-ivy-before"
-  - id: "ivy-after"
-    title: "National Test Exercise - Operation Ivy"
-    creator: "Federal Civil Defense Administration. Region I. 1951-1958"
-    year: "April 5, 1954"
-    location: "National Archives at Boston"
-    link: https://www.digitalcommonwealth.org/search/commonwealth:h128rw508
-    figure:
       - id: "operation-ivy-after"
   - id: "eniac"
     title: "Photograph of ENIAC (Electronic Numerical Integrator and Calculator)"
@@ -197,21 +190,14 @@ object_list:
     link: https://collections.leventhalmap.org/search/commonwealth:0c4868548
     figure:
       - id: "government-center"
-  - id: "suffolk-1952"
-    title: "Suffolk County: aerial photograph, August 24, 1952"
+  - id: "suffolk"
+    title: "\"Suffolk County: aerial photograph, August 24, 1952\" and \"Suffolk County: aerial photograph, July 3, 1971\""
     creator: "University of Massachusetts Amherst, Department of Forestry and Wildlife Management"
     year: 1952
     location: "William P. MacConnell Aerial Photograph Collection, Special Collections and University Archives, University of Massachusetts Amherst Libraries"
     link: https://credo.library.umass.edu/view/full/mufs190-1952-dpu8k79-i001
     figure:
       - id: "suffolk-1952"
-  - id: "suffolk-1971"
-    title: "Suffolk County: aerial photograph, July 3, 1971"
-    creator: "University of Massachusetts Amherst, Department of Forestry and Wildlife Management"
-    year: 1971
-    location: "William P. MacConnell Aerial Photograph Collection, Special Collections and University Archives, University of Massachusetts Amherst Libraries"
-    link: https://credo.library.umass.edu/view/full/mufs190-1971-dpu3mm86-i001
-    figure:
       - id: "suffolk-1971"
   - id: "massgis-data"
     title: "MassGIS Data: Land Use (1951-1999)"
