@@ -12,4 +12,159 @@ figure_list:
   - id: "lake-istokpoga"
     manifestId: https://www.loc.gov/item/78693106/manifest.json
     canvasId: https://tile.loc.gov/image-services/iiif/service:gmd:gmd393:g3932:g3932i:ct010264
-    
+  - id: "bangladesh"
+    src: "figures/w1_bd2.tif"
+    zoom: true
+  - id: "understanding-can1"
+    manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
+    canvasId: https://iiif.archivelab.org/iiif/31761115538407$2
+  - id: "understanding-can2"
+    manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
+    canvasId: https://iiif.archivelab.org/iiif/31761115538407$3
+  - id: "canada-soil"
+    manifestId: https://iiif.archive.org/iiif/ARDA-83H-1967/manifest.json
+    canvasId: https://iiif.archivelab.org/iiif/ARDA-83H-1967
+  - id: "chicago-fig18"
+    manifestId: https://iiif.archive.org/iiif/chicagoareatrans01chic/manifest.json
+    canvasId: https://iiif.archivelab.org/iiif/chicagoareatrans01chic$68
+  - id: "chicago-fig20"
+    manifestId: https://iiif.archive.org/iiif/chicagoareatrans01chic/manifest.json
+    canvasId: https://iiif.archivelab.org/iiif/chicagoareatrans01chic$70
+  - id: "chicago-fig22"
+    manifestId: https://iiif.archive.org/iiif/chicagoareatrans01chic/manifest.json
+    canvasId: https://iiif.archivelab.org/iiif/chicagoareatrans01chic$72
+  - id: "chicago-fig52"
+    manifestId: https://iiif.archive.org/iiif/chicagoareatrans01chic/manifest.json
+    canvasId: https://iiif.archivelab.org/iiif/chicagoareatrans01chic$126
+  - id: "city-signs46"
+    src: "figures/w5_directomat1.tif"
+    zoom: true
+  - id: "city-signs50"
+    src: "figures/w5_directomat2.tif"
+    zoom: true
+  - id: "city-signs52"
+    src: "figures/w5_directomat3.tif"
+    zoom: true
+  - id: "city-signs61"
+    src: "figures/w5_directomat4.tif"
+    zoom: true
+  - id: "atlanta-atlas"
+    src: "figures/v4_atlanta.tif"
+    zoom: true
+  - id: "eniac"
+    src: "figures/w4_eniac.jpg"
+    zoom: true
+  - id: "tax-parcels"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:00000x71j/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:00000x72t
+  - id: "government-center"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:0c4868548/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:0c4868548
+  - id: "space-shuttle1"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:1544hz92f/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:pn89kg40v
+  - id: "space-shuttle2"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:1544hz92f/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:pz50p594w
+  - id: "DEP"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:1831hz479/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:1831hz479
+  - id: "nomans-land"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:5m60w433w/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5m60w433w
+  - id: "buffers"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:cr56sd116/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:cr56sd116
+  - id: "acec"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:g158gw60d/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:g158gw60d
+  - id: "shadeset"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:j3864k513/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:sf26dj05g
+  - id: "homeland-security"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:j6736980x/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:j6736980x
+  - id: "boston-atlas-cover"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:ns069g065/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:7940f7769
+  - id: "boston-atlas-4"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:ns069g065/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:6d5757633
+  - id: "boston-atlas-4a"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:ns069g065/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:8p58vp363
+  - id: "boston-atlas-7a"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:ns069g065/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:1g05mk53b
+  - id: "boston-atlas-11a"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:ns069g065/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:5m60x224p
+  - id: "georges-bank"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:rx918142s/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:rx918142s
+  - id: "nantucket-black"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:vd672306w/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:37725g66f
+  - id: "nantucket-blue"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:vd672306w/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:08617q65p
+  - id: "nantucket-green"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:vd672306w/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:w6639531x
+  - id: "carleton-boston"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:x633f8530/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x633f8530
+  - id: "whale-chart"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:x633f952x/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x633f952x
+  - id: "milwaukee"
+    manifestId: https://cdm17272.contentdm.oclc.org/iiif/agdm:25983/manifest.json
+    canvasId: https://cdm17272.contentdm.oclc.org/iiif/2/agdm:25974
+  - id: "space-portrait1"
+    manifestId: https://collections.lib.uwm.edu/iiif/2/agdm:34074/manifest.json
+    canvasId: https://cdm17272.contentdm.oclc.org/iiif/2/agdm:34072
+  - id: "space-portrait2"
+    manifestId: https://collections.lib.uwm.edu/iiif/2/agdm:34074/manifest.json
+    canvasId: https://cdm17272.contentdm.oclc.org/iiif/2/agdm:34073
+  - id: "suffolk-1952"
+    src: "figures/f_suffolk-1952.tif"
+    zoom: true
+  - id: "suffolk-1971"
+    src: "figures/f_suffolk-1971.tif"
+    zoom: true  
+  - id: "nantucket-aerial"
+    src: "figures/w2_nantucket-aerial.jpeg"
+    zoom: true
+  - id: "new-england-nuclear"
+    src: "figures/w4_ne-nuclear.jpg"
+    zoom: true
+  - id: "forest-map"
+    src: "figures/w1_forest.jpg"
+    zoom: true
+  - id: "virginia-norwood"
+    src: "figures/v3_norwood.png"
+    zoom: true
+  - id: "mapedit"
+    src: "figures/w4_mapedit.png"
+    zoom: true
+  - id: "operation-ivy-before"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:h128rw49h/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:h128rw49h
+  - id: "operation-ivy-after"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:h128rw508/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:h128rw508
+  - id: "massgis-data"
+    src: "figures/f_massgis-data.png"
+    zoom: true
+  - id: "first-landsat"
+    src: "figures/v3_first-landsat.jpg"
+    zoom: true
+  - id: "google-maps-ad"
+    src: "figures/w5_mapsad-thumbnail.png"
+    zoom: true
+  - id: "woman-digi-puck"
+    src: "figures/f_woman-puck.tif"
+    zoom: true
+  - id: "bullfrog-lake"
+    manifestId: https://www.digitalcommonwealth.org/search/commonwealth:fq97d775c/manifest.json
+    canvasId: https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:7653cb62j
