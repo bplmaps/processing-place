@@ -37,7 +37,9 @@ module.exports = class TableOfContents {
     const containerClass = presentation === 'grid' ? 'is-fullhd' : ''
 
     return this.renderTemplate(
-      `{% pageHeader
+      `
+      <div class="contents-banner" style="--bgc: {{ theme_color_secondary | strip | escape }};">
+      {% pageHeader
         byline_format=byline_format,
         image=image,
         label=label,
@@ -45,10 +47,11 @@ module.exports = class TableOfContents {
         subtitle=subtitle,
         title=title
       %}
+      </div>
       <section class="section quire-page__content">
         ${contentElement}
         <div class="container ${containerClass}">
-          <div class="quire-contents-list ${presentation}">
+          <div class="quire-contents-list ${presentation}" style="--bgc: {{ theme_color_primary | strip | escape }};">
             ${await this.tableOfContents({ collections, currentPageUrl: page.url, key, presentation })}
             <div class="content">
               {% bibliography citations %}

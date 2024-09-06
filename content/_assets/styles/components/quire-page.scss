@@ -78,9 +78,13 @@ html {
   h1,
   &__header__title {
     font-size: $heading-1-font-size;
-    font-weight: 700;
+    font-weight: 100;
     line-height: $heading-1-line-height;
-    margin: 1rem 0;
+    margin: auto;
+    background: #fff;
+    width: 40%;
+    text-align: center;
+    padding: 40px;
 
     @media print {
       margin-top: 0.75in;
@@ -290,7 +294,22 @@ html {
           h4,
           h5,
           h6 {
+            text-align: justify;
+            margin-right: 10%;
+            font-family: $quire-headings-font;
+            font-size: 0.8em;
             position: relative;
+            padding: 0px; /* Add padding if needed for spacing */
+            line-height: 2; /* Adjust based on your text */
+            background-image: linear-gradient(
+              to bottom,
+              #ffeb4f 0%,
+              #ffeb4f 80%,
+              transparent 20%,
+              transparent 100%
+            );
+            background-size: 100% 2em; /* Adjust based on your line-height */
+            background-repeat: repeat-y;
             @media screen {
               &:first-child:before {
                 @if (lightness($content-background-color) < 50) {
@@ -526,11 +545,15 @@ html {
   //   border: 1px solid OrangeRed;
   // }
 
-  background-color: $secondary-background-color;
+  background-color: var(--bgc);
+  background-size: 15px 15px;
+  background-image:
+    linear-gradient(to right, $off-black 1px, transparent 1px),
+    linear-gradient(to bottom, $off-black 1px, transparent 1px);
   color: background-color-text-classic($secondary-background-color);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: cover;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: cover;
   text-align: center;
   @include animation(fadeIn 2s);
 

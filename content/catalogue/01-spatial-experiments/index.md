@@ -3,6 +3,8 @@ title: Spatial Experiments
 layout: page
 order: 101
 menu: false
+theme_color_primary: "#ffda00"
+theme_color_secondary: "#ac5e00"
 toc: true
 ---
 

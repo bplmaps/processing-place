@@ -1,3 +1,87 @@
+.dedication {
+  margin-bottom: 10%;
+  overflow: hidden;
+  border: dashed 1px var(--bgc); 
+  box-shadow: 20px 20px 0px 0px var(--bgc, black);
+  font-family: $quire-primary-font;
+  font-size: 1em;
+  position: relative;
+  padding: 30px;
+  line-height: 2;
+}
+
+.cover-button {
+  color: black;
+}
+
+.contents-banner {
+  background-color: var(--bgc);
+  background-size: 15px 15px;
+  background-image:
+    linear-gradient(to right, $off-black 1px, transparent 1px),
+    linear-gradient(to bottom, $off-black 1px, transparent 1px);
+  color: background-color-text-classic($secondary-background-color);
+}
+
+.entry-title {
+  font-size: $heading-1-font-size;
+  font-weight: 100;
+  line-height: $heading-1-line-height;
+  margin: 1rem 0;
+}
+
+.invitation {
+  overflow: hidden;
+  text-align: justify;
+  border: dashed 1px var(--bgc); 
+  box-shadow: 20px 20px 0px 0px var(--bgc, black);
+  margin: 10%;
+  font-family: $quire-primary-font;
+  font-size: 0.8em;
+  position: relative;
+  padding: 30px;
+  line-height: 2;
+  background-image: linear-gradient(
+    to bottom,
+    #ffeb4f 0%,
+    #ffeb4f 90%,
+    transparent 20%,
+    transparent 100%
+  );
+  background-size: 100% 2em;
+  background-position: 10px 30px;
+  background-repeat: repeat-y;
+  background-clip: content-box;
+}
+
+.pullquote-citation {
+  position: relative;
+  text-align: right;
+  padding-left: 15%;
+  padding-right: 10%;
+  font-size: 0.8em;
+  margin-bottom: 2em
+}
+
+.content strong {
+  color: var(--bgc, black);
+}
+
+.crosslink {
+  position: relative;
+  background-color: var(--crosslink, #fff);
+  color: findColorInvert(var(--crosslink, $off-black)) !important;
+  font-family: $quire-headings-font;
+  font-size: 0.8em;
+  padding: 2px 4px;
+  border-radius: 3px;
+  overflow: hidden;
+  &:hover {
+    color: findColorInvert(var(--crosslink, $off-black)) !important;
+    filter: brightness(70%);
+  }
+}
+
 .body-large {
     font-size: $heading-5-font-size;
     line-height: 1;  

@@ -4,6 +4,8 @@ layout: page
 order: 801
 menu: false
 toc: true
+theme_color_primary: "#f04e29"
+theme_color_secondary: "#f04e29"
 ---
 
 <span class="body-large">Computers introduced previously untold degrees of precision into map production. Nowhere was this impact felt more poignantly, or with more devastating geographical consequences, than military conflict.</span>

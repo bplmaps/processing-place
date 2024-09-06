@@ -346,8 +346,26 @@ $image-divider-height: 16px;
     }
 
     .quire-page__header__title {
+      display: inline-block;
       padding: 1em 2rem 0;
       margin-bottom: 1rem;
+      position: relative;
+      width: 90%;
+      text-align: left;
+      padding: 20px; /* Add padding if needed for spacing */
+      line-height: 2; /* Adjust based on your text */
+      background-image: linear-gradient(
+        to bottom,
+        #FFE003 0%,
+        #FFE003 80%,
+        transparent 20%,
+        transparent 100%
+      );
+      background-size: 100% 2em;
+      background-position: 10px 30px; /* Padding on top: 30px */
+      background-repeat: repeat-y;
+      background-clip: content-box; /* Prevents yellow bars from going into padding */
+      // background-color: var(--bgc, black);
       // @media print {
       //   padding: 0;
       //   margin: .75in 0 .5in;
@@ -434,12 +452,12 @@ $image-divider-height: 16px;
           fill: background-color-text-classic($content-background-color);
         }
       } @else {
-        color: $accent-color;
+        color: var(--bgc, black);
       }
 
       &:hover {
-        background-color: link-hover-color($content-background-color);
-        border-color: link-hover-color($content-background-color);
+        background-color: var(--bgc, black);
+        border-color: link-hover-color($accent-color);
 
         color: findColorInvert($accent-color);
 
@@ -498,7 +516,7 @@ $image-divider-height: 16px;
       @if $theme==classic {
         border: 1px solid $off-black;
       } @else {
-        border: 1px solid $accent-color;
+        border: 1px solid var(--bgc, black);
       }
     }
 
@@ -507,7 +525,7 @@ $image-divider-height: 16px;
       height: 1em;
       width: 1em;
       margin-left: 0.5em;
-      fill: $accent-color;
+      fill: var(--bgc, black);
 
       & img {
         position: absolute;
@@ -525,8 +543,8 @@ $image-divider-height: 16px;
       }
 
       &:hover {
-        background-color: $quire-hover-color;
-        color: background-color-text($quire-hover-color);
+        background-color: var(--bgc, black);
+        color: findColorInvert(var(--bgc, black));
       }
     }
   }
