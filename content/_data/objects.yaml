@@ -31,3 +31,299 @@ object_list:
     link: https://www.loc.gov/resource/g3932i.ct010264
     figure:
       - id: "lake-istokpoga"
+  - id: "forest-map"
+    title: "Forest Map"
+    creator: "Warren H. Manning"
+    year: 1912
+    location: "Iowa State University, Special Collections and University Archives"
+    figure:
+      - id: "forest-map"
+  - id: "canada-soil"
+    title: "Canada Land Inventory Soil Capability for Agriculture"
+    creator: "Canada Land Inventory Soil Research Institute"
+    year: 1967
+    location: "University of Alberta Library"
+    figure:
+      - id: "canada-soil"
+  - id: "understanding-canada"
+    title: "Understanding Canada’s Lands"
+    creator: "Canadian Wildlife Service Ecological Application Research Division"
+    year: 1988
+    location: "University of Toronto Libraries"
+    figure:
+      - id: "understanding-canada1"
+      - id: "understanding-canada2"
+  - id: "georges-bank"
+    title: "Resources on Georges Bank and Nantucket Shoals"
+    creator: "Massachusetts Coastal Zone Management Office"
+    year: "circa 1976"
+    location: "David Judkins Weaver Papers, Norman B. Leventhal Map & Education Center at the Boston Public Library"
+    link: https://collections.leventhalmap.org/search/commonwealth:rx918142s
+    figure:
+      - id: "georges-bank"
+  - id: "whale-chart"
+    title: "Whale Chart"
+    creator: "Matthew Fontaine Maury"
+    year: 1851
+    location: "Norman B. Leventhal Map & Education Center"
+    link: https://collections.leventhalmap.org/search/commonwealth:x633f952x
+    figure:
+      - id: "whale-chart"
+  - id: "nantucket-landuse"
+    title: "Nantucket, Massachusetts: Landuse in 1985"
+    creator: "Massachusetts Executive Office of Environmental Affairs; MassGIS"
+    year: 1988
+    location: "Applied Geographics, Inc. Records, Norman B. Leventhal Map & Education Center"
+    link: https://collections.leventhalmap.org/search/commonwealth:vd672306w
+    figure:
+      - id: "nantucket-black"
+      - id: "nantucket-blue" 
+      - id: "nantucket-green"
+  - id: "nantucket-aerial"
+    title: "Nantucket County: Aerial Photograph (4-710), September 20, 1984"
+    creator: "Massachusetts Department of Environmental Management"
+    year: 1984
+    location: "William P. MacConnell Aerial Photograph Collection (FS 190). Special Collections and University Archives, University of Massachusetts Amherst Libraries"
+    link: https://credo.library.umass.edu/view/full/mufs190-1984-4710-i001
+    figure:
+      - id: "nantucket-aerial"
+  - id: "buffers"
+    title: "Buffers Around Tributaries to the Wachusett Reservoir Compared to 1985 Urban Landuse and Currently Protected Open Space in Sterling and West Boylston"
+    creator: "MassGIS"
+    year: 1988
+    location: "David Judkins Weaver Papers, Norman B. Leventhal Map & Education Center"
+    link: https://collections.leventhalmap.org/search/commonwealth:cr56sd116
+    figure:
+      - id: "buffers"
+  - id: "dep"
+    title: "DEP Water Supply Contamination Correction Program Underground Storage Tank Locations Compared to Natural Resource Data: Auburn; Millbury"
+    creator: "MassGIS"
+    year: "circa 1988"
+    location: "David Judkins Weaver Papers, Norman B. Leventhal Map & Education Center"
+    link: https://collections.leventhalmap.org/search/commonwealth:1831hz479
+    figure:
+      - id: "dep"
+  - id: "acec"
+    title: "Massachusetts Areas of Critical Environmental Concern"
+    creator: "Massachusetts Executive Office of Environmental Affairs ; Massachusetts Department of Environmental Management"
+    year: 1993
+    location: "David Judkins Weaver Papers, Norman B. Leventhal Map & Education Center"
+    link: https://collections.leventhalmap.org/search/commonwealth:g158gw60d
+    figure:
+      - id: "acec"
+  - id: "new-england-nuclear"
+    title: "Southern New England after a Nuclear Attack"
+    creator: "William Bunge"
+    year: 1988
+    location: "PJ Mode Collection of Persuasive Cartography, Cornell University Library"
+    link: https://digital.library.cornell.edu/catalog/ss:19343512
+    figure:
+      - id: "new-england-nuclear"
+  - id: "ivy-before"
+    title: "National Test Exercise - Operation Ivy"
+    creator: "Federal Civil Defense Administration. Region I. 1951-1958"
+    year: "April 5, 1954"
+    location: "National Archives at Boston"
+    link: https://www.digitalcommonwealth.org/search/commonwealth:h128rw49h
+    figure:
+      - id: "operation-ivy-before"
+  - id: "ivy-after"
+    title: "National Test Exercise - Operation Ivy"
+    creator: "Federal Civil Defense Administration. Region I. 1951-1958"
+    year: "April 5, 1954"
+    location: "National Archives at Boston"
+    link: https://www.digitalcommonwealth.org/search/commonwealth:h128rw508
+    figure:
+      - id: "operation-ivy-after"
+  - id: "eniac"
+    title: "Photograph of ENIAC (Electronic Numerical Integrator and Calculator)"
+    creator: "United States Information Agency"
+    year: "[1985, reprint of 1947 proceedings]"
+    location: "U.S. National Archives and Records Administration"
+    link: https://catalog.archives.gov/id/595506
+    figure:
+      - id: "eniac"
+  - id: "mapedit"
+    title: "p. 137, from \"Work Book III - Computer Mapping Systems - Programs: MAPEDIT-DOBEDO-CARTE\""
+    creator: "Lawrence Berkeley National Laboratory"
+    year: 1977
+    location: "Lawrence Berkeley National Laboratory"
+    link: https://escholarship.org/uc/item/6r97k5sr
+    figure:
+      - id: "mapedit"
+  - id: "nomans-land"
+    title: "Nomans Land"
+    creator: "Applied Geographics, Inc."
+    year: "ca. 1995"
+    location: "Applied Geographics, Inc. Records, Norman B. Leventhal Map & Education Center"
+    link: https://collections.leventhalmap.org/search/commonwealth:5m60w433w
+    figure:
+      - id: "nomans-land"
+  - id: "homeland-security"
+    title: "Homeland Security & Critical Infrastructure Protection : Boston Pilot Preparedness Project"
+    creator: "Applied Geographics, Inc."
+    year: "ca. 2002"
+    location: "Applied Geographics, Inc. Records, Norman B. Leventhal Map & Education Center"
+    link: https://collections.leventhalmap.org/search/commonwealth:j6736980x=
+    figure:
+      - id: "homeland-security"
+  - id: "chicago-transportation"
+    title: "Desire line maps"
+    creator: "Chicago Area Transportation Study"
+    year: 1959
+    location: "Norman B. Leventhal Map & Education Center"
+    link: https://bpl.bibliocommons.com/v2/record/S75C8880423
+    figure:
+      - id: "chicago-fig18"
+      - id: "chicago-fig20"
+      - id: "chicago-fig22"
+      - id: "chicago-fig52"
+  - id: "city-signs-lights"
+    title: "Directomat"
+    creator: "Ashley/Myer/Smith"
+    year: 1971
+    location: "Government Documents, Boston Public Library"
+    link: https://bpl.bibliocommons.com/v2/record/S75C1645806
+    figure:
+      - id: "city-signs46"
+      - id: "city-signs50"
+      - id: "city-signs52"
+      - id: "city-signs61"
+  - id: "government-center"
+    title: "Illustrative site plan"
+    creator: "Boston Redevelopment Authority"
+    year: 1968
+    location: "Norman B. Leventhal Map & Education Center at the Boston Public Library"
+    link: https://collections.leventhalmap.org/search/commonwealth:0c4868548
+    figure:
+      - id: "government-center"
+  - id: "suffolk-1952"
+    title: "Suffolk County: aerial photograph, August 24, 1952"
+    creator: "University of Massachusetts Amherst, Department of Forestry and Wildlife Management"
+    year: 1952
+    location: "William P. MacConnell Aerial Photograph Collection, Special Collections and University Archives, University of Massachusetts Amherst Libraries"
+    link: https://credo.library.umass.edu/view/full/mufs190-1952-dpu8k79-i001
+    figure:
+      - id: "suffolk-1952"
+  - id: "suffolk-1971"
+    title: "Suffolk County: aerial photograph, July 3, 1971"
+    creator: "University of Massachusetts Amherst, Department of Forestry and Wildlife Management"
+    year: 1971
+    location: "William P. MacConnell Aerial Photograph Collection, Special Collections and University Archives, University of Massachusetts Amherst Libraries"
+    link: https://credo.library.umass.edu/view/full/mufs190-1971-dpu3mm86-i001
+    figure:
+      - id: "suffolk-1971"
+  - id: "massgis-data"
+    title: "MassGIS Data: Land Use (1951-1999)"
+    creator: "MassGIS"
+    year: 1999
+    link: https://www.mass.gov/info-details/massgis-data-land-use-1951-1999#attributes-
+    figure:
+      - id: "massgis-data"
+  - id: "woman-digi-puck"
+    title: "Digitization at a Turnkey Workstation"
+    creator: "James R. Carter"
+    year: 1984
+    location: "State University of New York Plattsburgh"
+    figure:
+      - id: "woman-digi-puck"
+  - id: "bullfrog-lake"
+    title: Bullfrog Lake 16-level linear assignment"
+    year: 1977
+    location: "David Judkins Weaver Papers, Norman B. Leventhal Map & Education Center at the Boston Public Library"
+    link: https://collections.leventhalmap.org/search/commonwealth:fq97d775c
+    figure:
+      - id: "bullfrog-lake"
+  - id: "shadeset"
+    title: "Shade symbols for electrostatic plotter - shadeset P1"
+    creator: "Applied Geographics, Inc."
+    year: "1985-1995"
+    location: "Applied Geographics, Inc. Records, Norman B. Leventhal Map & Education Center at the Boston Public Library"
+    link: https://collections.leventhalmap.org/search/commonwealth:j3864k513
+    figure:
+      - id: "shadeset"
+  - id: "bangladesh"
+    title: "Percent of families by housing status (damaged) in each district (June, 1972)"
+    creator: "Paul R. Baumann and Charles W. Woolever"
+    year: 1972
+    location: "Department of Geography, S.U.N.Y. at Oneonta"
+    figure:
+      - id: "bangladesh-housing"
+      - id: "bangladesh-foreword"
+  - id: "space-portrait"
+    title: "Space Portrait of the United States"
+    creator: "Beltsville Photographic Engineering Laboratory"
+    year: 1976
+    location: "American Geographical Society Library, University of Wisconsin-Milwaukee"
+    link: https://collections.lib.uwm.edu/digital/collection/agdm/id/34073/rec/11
+    figure:
+      - id: "space-portrait1"
+      - id: "space-portrait2"
+  - id: "virginia-norwood"
+    title: "hotograph of Virginia Norwood (1927-2023)"
+    year: 1950
+    location: "United States. National Aeronautics and Space Administration"
+    link: https://en.wikipedia.org/wiki/Virginia_Norwood#/media/File:Virginia_Norwood_VT-Storm-Radar-web.png
+    figure:
+      - id: "virginia-norwood"
+  - id: "first-landsat"
+    title: "Landsat 1 First Light Image of Texas"
+    creator: "United States National Aeronautics and Space Administration"
+    year: 1972
+    location: "Landsat-1 image courtesy of the U.S. Geological Survey"
+    link: https://www.usgs.gov/media/images/landsat-1-first-light-image-texas
+    figure:
+      - id: "first-landsat"
+  - id: "space-shuttle"
+    title: "Space Shuttle Mission Chart STS-7"
+    creator: "United States Defense Mapping Agency"
+    year: 1982
+    location: "Norman B. Leventhal Map & Education Center"
+    link: https://collections.leventhalmap.org/search/commonwealth:1544hz92f
+    figure:
+      - id: "space-shuttle1"
+      - id: "space-shuttle2"
+  - id: "boston-atlas"
+    title: "Demographic maps of Boston"
+    creator: "United States Bureau of the Census"
+    year: 1976
+    location: "Government Documents, Boston Public Library"
+    link: https://collections.leventhalmap.org/search/commonwealth:ns069g065
+    figure:
+      - id: "boston-atlas-cover"
+      - id: "boston-atlas-4"
+      - id: "boston-atlas-4a"
+      - id: "boston-atlas-7a"
+      - id: "boston-atlas-11a"
+  - id: "atlanta"
+    title: "\"Map 11 : Percent of Negro Renter Occupied Housing\" and \"Map 12 : Percent of Housing Units Lacking Some or All Plumbing Facilities\""
+    creator: "Malcolm A. Murray"
+    year: 1975
+    location: "Boston Public Library"
+    link: https://bpl.bibliocommons.com/v2/record/S75C1862978
+    figure:
+      - id: "atlanta-atlas"
+  - id: "milwaukee"
+    title: "City of Milwaukee Neighborhood Improvement Program"
+    creator: "Milwaukee Department of City Development"
+    year: 1986
+    location: "American Geographical Society Library, University of Wisconsin-Milwaukee"
+    link: https://collections.lib.uwm.edu/digital/collection/agdm/id/25970
+    figure:
+      - id: "milwaukee"
+  - id: "tax-parcels"
+    title: "Tax Parcels That Would Have Been Underwater in 1630"
+    creator: "Norman B. Leventhal Map and Education Center"
+    year: 2021
+    location: "Norman B. Leventhal Map & Education Center"
+    link: https://collections.leventhalmap.org/search/commonwealth:00000x71j
+    figure:
+      - id: "tax-parcels"
+  - id: "carleton-boston"
+    title: "A Plan of Boston, from Actual Survey"
+    creator: "Osgood Carleton"
+    year: 1796
+    location: "Norman B. Leventhal Map & Education Center"
+    link: https://collections.leventhalmap.org/search/commonwealth:x633f8530
+    figure:
+      - id: "carleton-boston"
