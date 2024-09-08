@@ -351,8 +351,8 @@ $image-divider-height: 16px;
       position: relative;
       width: 90%;
       text-align: left;
-      padding: 20px; /* Add padding if needed for spacing */
-      line-height: 2; /* Adjust based on your text */
+      padding: 20px;
+      line-height: 2;
       background-image: linear-gradient(
         to bottom,
         #FFE003 0%,
@@ -361,14 +361,9 @@ $image-divider-height: 16px;
         transparent 100%
       );
       background-size: 100% 2em;
-      background-position: 10px 30px; /* Padding on top: 30px */
+      background-position: 10px 30px;
       background-repeat: repeat-y;
-      background-clip: content-box; /* Prevents yellow bars from going into padding */
-      // background-color: var(--bgc, black);
-      // @media print {
-      //   padding: 0;
-      //   margin: .75in 0 .5in;
-      // }
+      background-clip: content-box;
       @media screen and (max-width: $tablet) {
         padding: 1rem 1.25rem 0;
       }

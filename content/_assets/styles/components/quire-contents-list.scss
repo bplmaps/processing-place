@@ -40,10 +40,15 @@
     list-style-type: none;
   }
 
-  .page-item,
+  .page-item{
+    margin-bottom: 1.375rem;
+    line-height: 1.6;
+    font-family: $quire-primary-font;
+  }
   .section-item {
     margin-bottom: 1.375rem;
     line-height: 1.6;
+    font-family: $quire-headings-font;
   }
 
   svg {

@@ -807,7 +807,7 @@ html {
       }
 
       &:hover {
-        color: link-hover-color($content-background-color) !important;
+        color: link-hover-color($content-background-color);
         border-bottom: 1px solid link-hover-color($content-background-color) !important;
       }
 
