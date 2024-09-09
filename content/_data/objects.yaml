@@ -197,21 +197,14 @@ object_list:
     link: https://collections.leventhalmap.org/search/commonwealth:0c4868548
     figure:
       - id: "government-center"
-  - id: "suffolk-1952"
-    title: "Suffolk County: aerial photograph, August 24, 1952"
+  - id: "suffolk"
+    title: "\"Suffolk County: aerial photograph, August 24, 1952\" and \"Suffolk County: aerial photograph, July 3, 1971\""
     creator: "University of Massachusetts Amherst, Department of Forestry and Wildlife Management"
-    year: 1952
+    year: 1952-1971
     location: "William P. MacConnell Aerial Photograph Collection, Special Collections and University Archives, University of Massachusetts Amherst Libraries"
     link: https://credo.library.umass.edu/view/full/mufs190-1952-dpu8k79-i001
     figure:
       - id: "suffolk-1952"
-  - id: "suffolk-1971"
-    title: "Suffolk County: aerial photograph, July 3, 1971"
-    creator: "University of Massachusetts Amherst, Department of Forestry and Wildlife Management"
-    year: 1971
-    location: "William P. MacConnell Aerial Photograph Collection, Special Collections and University Archives, University of Massachusetts Amherst Libraries"
-    link: https://credo.library.umass.edu/view/full/mufs190-1971-dpu3mm86-i001
-    figure:
       - id: "suffolk-1971"
   - id: "massgis-data"
     title: "MassGIS Data: Land Use (1951-1999)"
@@ -398,3 +391,11 @@ object_list:
       - id: "locator2"
       - id: "locator3"
       - id: "locator4"
+  - id: "punched-card"
+    title: "Punched Card"
+    creator: "New York University"
+    year: Unknown
+    location: Wikipedia Commons
+    link: https://commons.wikimedia.org/wiki/File:Blank_NYU_Fortran_punched_card.jpg
+    figure:
+      - id: "punched-card"

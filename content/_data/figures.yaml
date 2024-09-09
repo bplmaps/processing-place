@@ -168,6 +168,7 @@ figure_list:
   - id: "woman-digi-puck"
     src: "figures/f_woman-puck.tif"
     zoom: true
+    caption: "A woman digitizing geospatial data at a workstation (from *Computer Mapping: Progress in the '80s* by James Carter)."
   - id: "bullfrog-lake"
     manifestId: https://ark.digitalcommonwealth.org/ark:/50959/fq97d775c/manifest
     canvasId: https://ark.digitalcommonwealth.org/ark:/50959/fq97d775c/canvas/7653cb62j
@@ -234,3 +235,7 @@ figure_list:
   - id: "topo-mapping-mosaic"
     src: "figures/f_aerial-mosaic.tif"
     zoom: true
+  - id: "punched-card"
+    src: "figures/punched-card.jpg"
+    zoom: true
+    caption: "Sample of a punched card for inputting FORTRAN statements (from [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:Blank_NYU_Fortran_punched_card.jpg))."
