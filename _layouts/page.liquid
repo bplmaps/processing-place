@@ -24,7 +24,7 @@ description: Single page default template
   </div>
 </section>
 {% endif %}
-<section class="section quire-page__content">
+<section class="section quire-page__content" style="--bgc: {{ theme_color_secondary | strip | escape }};">
   <div class="container">
     {% pageButtons pagination=pagination %}
   </div>

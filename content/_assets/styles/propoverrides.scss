@@ -67,6 +67,41 @@
   color: var(--bgc, black);
 }
 
+.glossary-p {
+  p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  h5:hover {
+    background-image: linear-gradient(
+      to bottom,
+      #ffeb4f 0%,
+      #ffeb4f 90%,
+      transparent 20%,
+      transparent 100%
+    );
+    background-size: 100% 2em;
+    background-repeat: repeat-y;
+    background-clip: content-box;
+  } 
+}
+
+.gloss {
+  position: relative;
+  // background-color: lightgray;
+  border: dashed lightgray 1px;
+  color: var(--bgc, $off-black) !important;
+  font-weight: 1000px !important;
+  padding: 2px 4px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 2px 2px #FFE003;
+  &:hover {
+    transition: filter 0.1s ease;
+    filter: brightness(70%);
+  }
+}
+
 .crosslink {
   position: relative;
   background-color: var(--crosslink, #fff);

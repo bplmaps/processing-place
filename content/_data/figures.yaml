@@ -10,8 +10,8 @@ figure_list:
     src: "figures/w1-computer-room-scene.jpg"
     zoom: true
   - id: "lake-istokpoga"
-    manifestId: https://www.loc.gov/item/78693106/manifest.json
-    canvasId: https://tile.loc.gov/image-services/iiif/service:gmd:gmd393:g3932:g3932i:ct010264
+    src: "figures/istokpoga.jpg"
+    zoom: true
   - id: "bangladesh-housing"
     src: "figures/w1_bd2.tif"
     zoom: true
@@ -20,10 +20,13 @@ figure_list:
     zoom: true
   - id: "understanding-canada1"
     manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
-    canvasId: https://iiif.archivelab.org/iiif/31761115538407$2
+    canvasId: https://iiif.archive.org/iiif/31761115538407$0/canvas
   - id: "understanding-canada2"
     manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
-    canvasId: https://iiif.archivelab.org/iiif/31761115538407$3
+    canvasId: https://iiif.archive.org/iiif/31761115538407$2/canvas
+  - id: "understanding-canada3"
+    manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
+    canvasId: https://iiif.archive.org/iiif/31761115538407$3/canvas
   - id: "canada-soil"
     manifestId: https://iiif.archive.org/iiif/ARDA-83H-1967/manifest.json
     canvasId: https://iiif.archive.org/iiif/ARDA-83H-1967$0/canvas
@@ -155,8 +158,9 @@ figure_list:
   - id: "virginia-norwood"
     src: "figures/v3_norwood.png"
     zoom: true
-  - id: "mapedit"
-    src: "figures/w4_mapedit.png"
+    caption: "Taken in 1950, this photo captures [Virginia Norwood at work](https://landsat.gsfc.nasa.gov/article/virginia-t-norwood-the-mother-of-landsat/) with the Storm Detection Radar Set at the Army Signal Corps Laboratories in New Jersey."
+  - id: "mapedit-page"
+    src: "figures/mapedit.png"
     zoom: true
   - id: "operation-ivy-before"
     manifestId: https://ark.digitalcommonwealth.org/ark:/50959/h128rw49h/manifest
@@ -166,6 +170,7 @@ figure_list:
     canvasId: https://ark.digitalcommonwealth.org/ark:/50959/h128rw508/canvas/h128rw51j
   - id: "massgis-data"
     src: "figures/f_massgis-data.png"
+    caption: "The codes in this table, which are [still used today by MassGIS](https://www.mass.gov/info-details/massgis-data-land-use-1951-1999), derive from observations made about the aerial photographs shown to the left."
     zoom: true
   - id: "first-landsat"
     src: "figures/v3_first-landsat.jpg"
@@ -237,8 +242,8 @@ figure_list:
   - id: "circular-scribe"
     src: "figures/f_circular-scribe.jpg"
     zoom: true
-  - id: "puck"
-    src: "figures/f_puck.jpg"
+  - id: "digi-puck"
+    src: "figures/digi_puck.jpg"
     zoom: true
   - id: "topo-mapping-mosaic"
     src: "figures/f_aerial-mosaic.tif"

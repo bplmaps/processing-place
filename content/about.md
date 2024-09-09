@@ -26,7 +26,7 @@ menu: true
 | **Exhibition Curators**                       | Ian Spangler; Emily Bowe |
 | **Editorial Curator**                         | Garrett Dash Nelson      |
 | **Exhibition Design**                         | Joelle Riffle            |
-| **Digital Exhibition**                        | Ian Spangler; Emily Bowe |
+| **Digital Exhibition**                        | Ian Spangler |
 | **Prepared by**                               | the Leventhal Map & Education Center team:<br> Nicole Claris, Kiana Harriel, Rachel Sharer,<br>Claire Tratnyek, Samantha Walker, Julia Williams |
 
 <img src="/_assets/images/LMEC-logo.webp" width="250px"/> 

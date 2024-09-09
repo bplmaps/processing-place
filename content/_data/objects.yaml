@@ -43,6 +43,7 @@ object_list:
     creator: "Canada Land Inventory Soil Research Institute"
     year: 1967
     location: "University of Alberta Library"
+    link: https://archive.org/details/ARDA-83H-1967/mode/2up
     figure:
       - id: "canada-soil"
   - id: "understanding-canada"
@@ -50,9 +51,11 @@ object_list:
     creator: "Canadian Wildlife Service Ecological Application Research Division"
     year: 1988
     location: "University of Toronto Libraries"
+    link: https://archive.org/details/31761115538407/page/2/mode/2up
     figure:
       - id: "understanding-canada1"
       - id: "understanding-canada2"
+      - id: "understanding-canada3"
   - id: "georges-bank"
     title: "Resources on Georges Bank and Nantucket Shoals"
     creator: "Massachusetts Coastal Zone Management Office"
@@ -76,8 +79,8 @@ object_list:
     location: "Applied Geographics, Inc. Records, Norman B. Leventhal Map & Education Center"
     link: https://collections.leventhalmap.org/search/commonwealth:vd672306w
     figure:
-      - id: "nantucket-black"
       - id: "nantucket-blue" 
+      - id: "nantucket-black"
       - id: "nantucket-green"
   - id: "nantucket-aerial"
     title: "Nantucket County: Aerial Photograph (4-710), September 20, 1984"
@@ -136,14 +139,14 @@ object_list:
     link: https://catalog.archives.gov/id/595506
     figure:
       - id: "eniac"
-  - id: "mapedit"
+  - id: "mapedit-page"
     title: "p. 137, from \"Work Book III - Computer Mapping Systems - Programs: MAPEDIT-DOBEDO-CARTE\""
     creator: "Lawrence Berkeley National Laboratory"
     year: 1977
     location: "Lawrence Berkeley National Laboratory"
     link: https://escholarship.org/uc/item/6r97k5sr
     figure:
-      - id: "mapedit"
+      - id: "mapedit-page"
   - id: "nomans-land"
     title: "Nomans Land"
     creator: "Applied Geographics, Inc."
@@ -341,13 +344,13 @@ object_list:
       - id: "circular-slide-rule"
       - id: "stereograph"
       - id: "curvimeter"
-  - id: "puck"
+  - id: "digi-puck"
     title: "Digitizing puck"
     year: "1970s"
     location: "David Judkins Weaver Papers, Norman B. Leventhal Map & Education Center"
     link: https://archives.bpl.org/repositories/2/archival_objects/66957
     figure:
-      - id: "puck"
+      - id: "digi-puck"
   - id: "fortran-sheet"
     title: "Fortran Coding Form"
     creator: "Ampad"
@@ -374,7 +377,7 @@ object_list:
       - id: "topo-mapping-mosaic"
   - id: "walking-distance-locator"
     title: "Walking Distance Locator"
-    creator: "Visual Media Inc."
+    creator: "Visual Media Inc. (photographs by David Weaver)"
     year: 1989
     location: "David Judkins Weaver Papers, Norman B. Leventhal Map & Education Center"
     link: https://archives.bpl.org/repositories/2/archival_objects/67123
