@@ -72,15 +72,23 @@ figure_list:
   - id: "dep"
     manifestId: https://ark.digitalcommonwealth.org/ark:/50959/1831hz479/manifest
     canvasId: https://ark.digitalcommonwealth.org/ark:/50959/1831hz479/canvas/tb09pg01c
+  - id: "address-matching-detail"
+    src: "figures/address-matching-detail.jpg"
   - id: "nomans-land"
     manifestId: https://ark.digitalcommonwealth.org/ark:/50959/5m60w433w/manifest
     canvasId: https://ark.digitalcommonwealth.org/ark:/50959/5m60w433w/canvas/95940653d
   - id: "buffers"
     manifestId: https://ark.digitalcommonwealth.org/ark:/50959/cr56sd116/manifest
     canvasId: https://ark.digitalcommonwealth.org/ark:/50959/cr56sd116/canvas/df660n28c
+  - id: "buffer-detail-sterling"
+    src: "figures/buffer-detail-sterling.jpg"
+  - id: "buffer-detail-west-boylston"
+    src: "figures/buffer-detail-west-boylston.jpg"
   - id: "acec"
     manifestId: https://ark.digitalcommonwealth.org/ark:/50959/g158gw60d/manifest
     canvasId: https://ark.digitalcommonwealth.org/ark:/50959/g158gw60d/canvas/70799m128
+  - id: "acec-detail"
+    src: "figures/acec-detail.jpg"
   - id: "shadeset"
     manifestId: https://ark.digitalcommonwealth.org/ark:/50959/j3864k513/manifest
     canvasId: https://ark.digitalcommonwealth.org/ark:/50959/j3864k513/canvas/sf26dj05g
