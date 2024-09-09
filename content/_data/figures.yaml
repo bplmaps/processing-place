@@ -171,3 +171,66 @@ figure_list:
   - id: "bullfrog-lake"
     manifestId: https://ark.digitalcommonwealth.org/ark:/50959/fq97d775c/manifest
     canvasId: https://ark.digitalcommonwealth.org/ark:/50959/fq97d775c/canvas/7653cb62j
+  - id: "municipal-mapping"
+    src: "figures/f_municipal-mapping.tif"
+    zoom: true
+  - id: "topo-mapping-cover"
+    src: "figures/f_topo-map-cover.tif"
+    zoom: true
+  - id: "scribe-sheet2"
+    src: "figures/f_scribe2.tif"
+    zoom: true
+  - id: "scribe-sheet1"
+    src: "figures/f_scribe1.tif"
+    zoom: true
+  - id: "locator4"
+    src: "figures/f_locator4.tif"
+    zoom: true
+  - id: "locator3"
+    src: "figures/f_locator3.tif"
+    zoom: true
+  - id: "locator2"
+    src: "figures/f_locator2.tif"
+    zoom: true
+  - id: "locator1b"
+    src: "figures/f_locator1b.tif"
+    zoom: true
+  - id: "locator1a"
+    src: "figures/f_locator1a.tif"
+    zoom: true
+  - id: "fortran-sheet"
+    src: "figures/f_fortran-sheet.tif"
+    zoom: true
+  - id: "compass-set"
+    src: "figures/f_compass-set.jpg"
+    zoom: true
+  - id: "scribe-guides"
+    src: "figures/f_scribe-guide.jpg"
+    zoom: true
+  - id: "scribe-pen"
+    src: "figures/f_scribe-pen.jpg"
+    zoom: true
+  - id: "retracto-scribe"
+    src: "figures/f_retracto-scribe.jpg"
+    zoom: true
+  - id: "circular-slide-rule"
+    src: "figures/f_circular-slide-rule.jpg"
+    zoom: true
+  - id: "stereograph"
+    src: "figures/f_stereograph.jpg"
+    zoom: true
+  - id: "curvimeter"
+    src: "figures/f_curvimeter.jpg"
+    zoom: true
+  - id: "scribe-tips"
+    src: "figures/f_scribe-tips.jpg"
+    zoom: true
+  - id: "circular-scribe"
+    src: "figures/f_circular-scribe.jpg"
+    zoom: true
+  - id: "puck"
+    src: "figures/f_puck.jpg"
+    zoom: true
+  - id: "topo-mapping-mosaic"
+    src: "figures/f_aerial-mosaic.tif"
+    zoom: true
