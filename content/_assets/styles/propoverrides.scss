@@ -14,7 +14,7 @@
   color: black;
 }
 
-.contents-banner {
+.grid {
   background-color: var(--bgc);
   background-size: 15px 15px;
   background-image:
@@ -31,9 +31,8 @@
 }
 
 .invitation {
-  overflow: hidden;
   text-align: justify;
-  border: dashed 1px var(--bgc); 
+  border: solid 1px var(--bgc); 
   box-shadow: 20px 20px 0px 0px var(--bgc, black);
   margin: 10%;
   font-family: $quire-primary-font;
@@ -52,6 +51,32 @@
   background-position: 10px 30px;
   background-repeat: repeat-y;
   background-clip: content-box;
+  &::before {
+    content: "";
+    border: dotted 1px var(--bgc); 
+    position: absolute;
+    margin-top: 20px;
+    padding: 5px;
+    top: -50px;
+    left: -50px;
+    width: 70px;
+    height: 70px;
+    background-image: var(--img);
+    background-color: #fff;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 100;
+  }
+  &-cover {
+    @extend .invitation;
+    font-size: 1em;
+    &::before {
+      background-color: $secondary-background-color !important;
+      background-image: var(--img);
+    }
+  }
 }
 
 .pullquote-citation {
@@ -84,6 +109,13 @@
     background-repeat: repeat-y;
     background-clip: content-box;
   } 
+}
+
+.visit-splash {
+  margin-top: 12px;
+  border: 2px dashed;
+  padding: 24px;
+  background: #e7cfe1;
 }
 
 .gloss {

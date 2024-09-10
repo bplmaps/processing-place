@@ -19,17 +19,21 @@ figure_list:
     src: "figures/w1_bd1.tif"
     zoom: true
   - id: "understanding-canada1"
-    manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
-    canvasId: https://iiif.archive.org/iiif/31761115538407$0/canvas
+    src: "figures/making-a-difference_p1.jpg"
+    # manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
+    # canvasId: https://iiif.archive.org/iiif/31761115538407$0/canvas
   - id: "understanding-canada2"
-    manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
-    canvasId: https://iiif.archive.org/iiif/31761115538407$2/canvas
+    src: "figures/making-a-difference_p2.jpg"
+    # manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
+    # canvasId: https://iiif.archive.org/iiif/31761115538407$2/canvas
   - id: "understanding-canada3"
-    manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
-    canvasId: https://iiif.archive.org/iiif/31761115538407$3/canvas
+    src: "figures/making-a-difference_p3.jpg"
+    # manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
+    # canvasId: https://iiif.archive.org/iiif/31761115538407$3/canvas
   - id: "canada-soil"
-    manifestId: https://iiif.archive.org/iiif/ARDA-83H-1967/manifest.json
-    canvasId: https://iiif.archive.org/iiif/ARDA-83H-1967$0/canvas
+    src: "figures/soilmap.jpg"
+    # manifestId: https://iiif.archive.org/iiif/ARDA-83H-1967/manifest.json
+    # canvasId: https://iiif.archive.org/iiif/ARDA-83H-1967$0/canvas
   - id: "chicago-fig18"
     src: "figures/w5_chicago-18.tif"
     zoom: true

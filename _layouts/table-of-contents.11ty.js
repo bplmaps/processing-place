@@ -38,7 +38,7 @@ module.exports = class TableOfContents {
 
     return this.renderTemplate(
       `
-      <div class="contents-banner" style="--bgc: {{ theme_color_secondary | strip | escape }};">
+      <div class="grid" style="--bgc: {{ theme_color_secondary | strip | escape }};">
       {% pageHeader
         byline_format=byline_format,
         image=image,

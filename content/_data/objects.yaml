@@ -36,6 +36,7 @@ object_list:
     creator: "Warren H. Manning"
     year: 1912
     location: "Iowa State University, Special Collections and University Archives"
+    link: https://digitalcollections.lib.iastate.edu/islandora/object/isu%3AManningWarren_6610
     figure:
       - id: "forest-map"
   - id: "canada-soil"

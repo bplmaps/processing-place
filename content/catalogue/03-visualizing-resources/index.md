@@ -2,7 +2,7 @@
 title: Visualizing Resources
 layout: page
 order: 301
-menu: false
+menu: true
 toc: true
 theme_color_primary: "#00a14f"
 theme_color_secondary: "#00a14f"

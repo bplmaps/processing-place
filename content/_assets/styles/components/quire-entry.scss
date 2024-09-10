@@ -385,7 +385,7 @@ $image-divider-height: 16px;
 
     .container {
       background-color: $content-background-color;
-      padding-bottom: 2rem;
+      // padding-bottom: 2rem;
       @media screen and (max-width: $tablet) {
         margin-right: 0;
         margin-left: 0;
@@ -685,7 +685,12 @@ $image-divider-height: 16px;
         height: 100vh;
         width: 44%;
         right: 0;
-        background: $secondary-background-color;
+        background-color: $secondary-background-color;
+        background-size: 15px 15px;
+        background-image:
+          linear-gradient(to right, $gray 1px, transparent 1px),
+          linear-gradient(to bottom, $gray 1px, transparent 1px);
+        color: background-color-text-classic($secondary-background-color);
       }
 
       section.section,

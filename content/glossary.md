@@ -99,4 +99,4 @@ A **variable** is any characteristic or quality associated with a geographic fea
 
 ##### Vector
 
-The **vector** data model encodes geographic features as coordinate pairs. See **points, lines, and polygons** for a more detailed description of how.
+The **vector** data model encodes geographic features as coordinate pairs or series of coordinate pairs. See **points, lines, and polygons** for a more detailed description of how.
