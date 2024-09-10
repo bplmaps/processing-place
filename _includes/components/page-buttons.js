@@ -18,14 +18,8 @@ module.exports = function(eleventyConfig) {
   } = eleventyConfig.globalData.config.navigation
 
   return function(params, options={}) {
-    const { pagination, page } = params
+    const { pagination } = params
     const { nextPage, previousPage } = pagination
-    // trying to cover page button text to appear different
-    // but can't figure it out
-    let customNextButtonText = nextButtonText;
-    if (page.url === '/') {  
-      customNextButtonText = "Start Exploring";
-    }
 
     const prevPageButton = () => {
       if (!previousPage) return
@@ -41,8 +35,8 @@ module.exports = function(eleventyConfig) {
       if (!nextPage) return
       return html`
         <li class="quire-nav-button next">
-          <a href="${nextPage.url}"><span class="nav-title">${customNextButtonText}</span>\u0020${icon({ type: 'right-arrow', description: 'Go to next page' })}</a>
-          <span class="visually-hidden">Next Page (right keyboard arrow or swipe)</span>
+          <a href="${nextPage.url}"><span class="nav-title">${nextButtonText}</span>\u0020${icon({ type: 'right-arrow', description: 'Go back next page' })}</a>
+            <span class="visually-hidden">Next Page (right keyboard arrow or swipe)</span>
         </li>
       `
     }
