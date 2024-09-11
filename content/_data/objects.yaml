@@ -408,12 +408,6 @@ object_list:
       - id: "etakTape4"
       - id: "etakWheelSensors"
       - id: "etakWheelTape"
-  # - id: "hexagonia"
-  #   title: "Hexagonia"
-  #   creator: "Geoffrey Dutton"
-  #   year: "1969"
-  #   figure: 
-  #     - id: "hexagonia"
   - id: "gallery"
     title: "Counting Kids"
     creator: "Leventhal Map & Education Center"
@@ -426,3 +420,9 @@ object_list:
     year: "2024"
     figure: 
       - id: "vestibule"
+  - id: "hexagonia"
+    title: "Hexagonia"
+    creator: "Geoffrey Dutton"
+    year: "1969"
+    figure: 
+      - id: "hexagonia"

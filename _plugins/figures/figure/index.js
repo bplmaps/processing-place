@@ -204,6 +204,9 @@ module.exports = class Figure {
    * @type {String}
    */
   get staticInlineFigureImage() {
+    if (this.mediaType === 'video') {
+      return null;  // Skip image generation for videos
+    }
     let filename
     if (this.src) {
       filename = this.src

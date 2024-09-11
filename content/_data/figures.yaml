@@ -296,10 +296,10 @@ figure_list:
   - id: "etakWheelTape"
     src: "figures/etakWheelTape.jpg"
     zoom: true
-  # - id: "hexagonia"
-  #   poster: "figures/hexagonia.jpg"
-  #   src: "figures/hexagonia.mp4"
-  #   media_type: "video"
+  - id: "hexagonia"
+    poster: "hexagonia-medium.mp4"
+    src: "hexagonia-medium.mp4"
+    media_type: "video"
   - id: "gallery"
     src: "figures/gallery.jpg"
     zoom: true
