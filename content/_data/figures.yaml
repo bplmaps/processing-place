@@ -260,39 +260,49 @@ figure_list:
     src: "figures/punched-card.jpg"
     zoom: true
     caption: "Sample of a punched card for inputting FORTRAN statements (from [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:Blank_NYU_Fortran_punched_card.jpg))."
-  - id: "etak-brochure"
-    src: "figures/etak-brochure.tif"
+  - id: "etakBrochure"
+    src: "figures/etakBrochure.tif"
     zoom: true
-  - id: "etak-cassette-reader1"
-    src: "figures/etak-cassette-reader1.jpg"
+  - id: "etakCassetteReader1"
+    src: "figures/etakCassetteReader1.jpg"
     zoom: true
-  - id: "etak-cassette-reader2"
-    src: "figures/etak-cassette-reader2.jpg"
+  - id: "etakCassetteReader2"
+    src: "figures/etakCassetteReader2.jpg"
     zoom: true
-  - id: "etak-compass"
-    src: "figures/compass.jpg"
+  - id: "etakCompass"
+    src: "figures/etakCompass.jpg"
     zoom: true
-  - id: "etak-display"
-    src: "figures/etak-display.jpg"
+  - id: "etakDisplay"
+    src: "figures/etakDisplay.jpg"
     zoom: true
-  - id: "etak-processor"
-    src: "figures/-processor.jpg"
+  - id: "etakProcessor"
+    src: "figures/etakProcessor.jpg"
     zoom: true
-  - id: "etak-tape1"
-    src: "figures/etak-tape1.jpg"
+  - id: "etakTape1"
+    src: "figures/etakTape1.jpg"
     zoom: true
-  - id: "etak-tape2"
-    src: "figures/etak-tape2.jpg"
+  - id: "etakTape2"
+    src: "figures/etakTape2.jpg"
     zoom: true
-  - id: "etak-tape3"
-    src: "figures/etak-tape3.jpg"
+  - id: "etakTape3"
+    src: "figures/etakTape3.jpg"
     zoom: true
-  - id: "etak-tape4"
-    src: "figures/etak-tape4.jpg"
+  - id: "etakTape4"
+    src: "figures/etakTape4.jpg"
     zoom: true
-  - id: "etak-wheel-sensors"
-    src: "figures/etak-wheel-sensors.jpg"
+  - id: "etakWheelSensors"
+    src: "figures/etakWheelSensors.jpg"
     zoom: true
-  - id: "etak-wheel-tape"
-    src: "figures/etak-wheel-tape.jpg"
+  - id: "etakWheelTape"
+    src: "figures/etakWheelTape.jpg"
+    zoom: true
+  # - id: "hexagonia"
+  #   poster: "figures/hexagonia.jpg"
+  #   src: "figures/hexagonia.mp4"
+  #   media_type: "video"
+  - id: "gallery"
+    src: "figures/gallery.jpg"
+    zoom: true
+  - id: "vestibule"
+    src: "figures/vestibule.jpg"
     zoom: true

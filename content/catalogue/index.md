@@ -1,7 +1,7 @@
 ---
 title: Catalogue
 layout: table-of-contents
-order: 100
+order: 99
 menu: true
 toc: true
 theme_color_primary: "#ffda00"
