@@ -260,3 +260,39 @@ figure_list:
     src: "figures/punched-card.jpg"
     zoom: true
     caption: "Sample of a punched card for inputting FORTRAN statements (from [Wikipedia Commons](https://commons.wikimedia.org/wiki/File:Blank_NYU_Fortran_punched_card.jpg))."
+  - id: "etak-brochure"
+    src: "figures/etak-brochure.tif"
+    zoom: true
+  - id: "etak-cassette-reader1"
+    src: "figures/etak-cassette-reader1.jpg"
+    zoom: true
+  - id: "etak-cassette-reader2"
+    src: "figures/etak-cassette-reader2.jpg"
+    zoom: true
+  - id: "etak-compass"
+    src: "figures/compass.jpg"
+    zoom: true
+  - id: "etak-display"
+    src: "figures/etak-display.jpg"
+    zoom: true
+  - id: "etak-processor"
+    src: "figures/-processor.jpg"
+    zoom: true
+  - id: "etak-tape1"
+    src: "figures/etak-tape1.jpg"
+    zoom: true
+  - id: "etak-tape2"
+    src: "figures/etak-tape2.jpg"
+    zoom: true
+  - id: "etak-tape3"
+    src: "figures/etak-tape3.jpg"
+    zoom: true
+  - id: "etak-tape4"
+    src: "figures/etak-tape4.jpg"
+    zoom: true
+  - id: "etak-wheel-sensors"
+    src: "figures/etak-wheel-sensors.jpg"
+    zoom: true
+  - id: "etak-wheel-tape"
+    src: "figures/etak-wheel-tape.jpg"
+    zoom: true
