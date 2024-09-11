@@ -20,18 +20,22 @@ figure_list:
     zoom: true
   - id: "understanding-canada1"
     src: "figures/making-a-difference_p1.jpg"
+    zoom: true
     # manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
     # canvasId: https://iiif.archive.org/iiif/31761115538407$0/canvas
   - id: "understanding-canada2"
     src: "figures/making-a-difference_p2.jpg"
+    zoom: true
     # manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
     # canvasId: https://iiif.archive.org/iiif/31761115538407$2/canvas
   - id: "understanding-canada3"
     src: "figures/making-a-difference_p3.jpg"
+    zoom: true
     # manifestId: https://iiif.archive.org/iiif/31761115538407/manifest.json
     # canvasId: https://iiif.archive.org/iiif/31761115538407$3/canvas
   - id: "canada-soil"
     src: "figures/soilmap.jpg"
+    zoom: true
     # manifestId: https://iiif.archive.org/iiif/ARDA-83H-1967/manifest.json
     # canvasId: https://iiif.archive.org/iiif/ARDA-83H-1967$0/canvas
   - id: "chicago-fig18"

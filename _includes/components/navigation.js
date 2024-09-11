@@ -29,7 +29,7 @@ module.exports = function(eleventyConfig) {
     } = pagination
 
     if (!currentPage) return
-    
+
     const home = '/'
     const isHomePage = currentPage.url === home
 

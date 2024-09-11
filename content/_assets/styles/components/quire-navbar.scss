@@ -122,7 +122,7 @@
       transition: all .25s ease;
       &:hover {
         color: findColorInvert($accent-color) !important;
-        background-color: black;
+        background-color: var(--bgc, black);
         svg {
           fill: findColorInvert($accent-color);
         }
