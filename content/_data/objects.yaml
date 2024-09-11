@@ -415,7 +415,7 @@ object_list:
     figure: 
       - id: "gallery"
   - id: "vestibule"
-    title: "From Print to Pixel"
+    title: "Processing Place: From Print to Pixel"
     creator: "Leventhal Map & Education Center"
     year: "2024"
     figure: 
@@ -424,5 +424,6 @@ object_list:
     title: "Hexagonia"
     creator: "Geoffrey Dutton"
     year: "1969"
+    link: "https://www.spatial-effects.com/hexagonia/hexagonia-the-movie.mp4"
     figure: 
       - id: "hexagonia"

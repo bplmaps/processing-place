@@ -297,7 +297,7 @@ figure_list:
     src: "figures/etakWheelTape.jpg"
     zoom: true
   - id: "hexagonia"
-    poster: "hexagonia-medium.mp4"
+    poster: "figures/hexagonia-poster.png"
     src: "hexagonia-medium.mp4"
     media_type: "video"
   - id: "gallery"
