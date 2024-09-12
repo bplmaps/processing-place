@@ -394,7 +394,7 @@ object_list:
     title: "Etak Navigator hardware"
     creator: "Etak"
     year: "1983 and later"
-    location: "Walter Zavoli"
+    location: "Personal collection of Walter Zavoli"
     figure:
       - id: "etakBrochure"
       - id: "etakCassetteReader1"
@@ -424,6 +424,7 @@ object_list:
     title: "Hexagonia"
     creator: "Geoffrey Dutton"
     year: "1969"
+    location: "Loeb Library, Harvard Graduate School of Design"
     link: "https://www.spatial-effects.com/hexagonia/hexagonia-the-movie.mp4"
     figure: 
       - id: "hexagonia"

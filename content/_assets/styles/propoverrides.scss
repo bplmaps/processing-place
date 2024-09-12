@@ -97,7 +97,9 @@
     padding-left: 5%;
     padding-right: 5%;
   }
-  h5:hover {
+  h5 {
+    overflow:hidden !important;
+    &:hover {
     background-image: linear-gradient(
       to bottom,
       #ffeb4f 0%,
@@ -108,6 +110,7 @@
     background-size: 100% 2em;
     background-repeat: repeat-y;
     background-clip: content-box;
+    }
   } 
 }
 

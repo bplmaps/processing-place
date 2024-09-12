@@ -306,3 +306,7 @@ figure_list:
   - id: "vestibule"
     src: "figures/vestibule.jpg"
     zoom: true
+  - id: "hexagonia-hung"
+    src: "figures/hexagonia-hung.png"
+    zoom: true
+    caption: "The analog Hexagonia device, photographed in 2015 by its creator, Geoffrey Dutton."
