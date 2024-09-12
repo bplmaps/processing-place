@@ -1,6 +1,7 @@
 ---
 title: About the Exhibition
-layout: page
+layout: about
+isAbout: true
 order: 1000
 outputs:
   - html

@@ -1,0 +1,75 @@
+---
+classes:
+  - quire-entry
+layout: base.11ty.js
+description: Entry layout. This template is intended for use in catalogue-style pages where a single image or object needs to be featured prominently.
+---
+
+{% assign sideBySide = config.entryPage.sideBySide %}
+
+{% comment %}
+Entry content, including entry image and tombstone data
+{% endcomment %}
+
+<div {% if page.isKiosk %}data-is-kiosk="true"{% else %}data-is-kiosk="false"{% endif %} {% if sideBySide == true or presentation == 'side-by-side' %} class="side-by-side kiosk" {% endif %}>
+
+  {% comment %} Full-width entry image header {% endcomment %}
+  <div class="quire-entry__image-wrap" data-outputs-include="html">
+    <div class="quire-entry__lightbox" style="height: 100%;">
+      {% if image %}
+      {% comment %} 
+        To do: add support for images without ids defined in front matter
+        {% assign figures = image | split: ',' %}
+        {% lightbox figures %}
+      {% endcomment %}
+      {% elsif pageObjects %}
+        {% for object in pageObjects %}
+          {% lightbox object.figures %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="quire-entry__image-wrap" data-outputs-include="epub,pdf">
+    {% if image %}
+      {% comment %} 
+        @TODO: add support for images without ids defined in front matter
+        {% figure image %}
+      {% endcomment %}
+    {% elsif pageObjects %}
+      {% for object in pageObjects %}
+        {% for figure in object.figures %}
+          {% figure figure.id %}
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+  </div>
+
+  <div class="quire-entry__content" style="--bgc: {{ theme_color_secondary | strip | escape }};">
+    <header class="quire-entry__header">
+      <div class="container">
+        <h1 class="quire-page__header__title highlight" id="page-header-{{ page.filePathStem }}" style="--bgc: {{ theme_color_primary | strip | escape }};">
+          {% pageTitle label=label, title=title, subtitle=subtitle %}
+        </h1>
+        <div class="quire-page__header__contributor">
+          {% contributors context=pageContributors, format=byline_format %}
+        </div>
+      </div>
+    </header>
+
+    {% tombstone pageObjects %}
+
+    {% if abstract %}
+      {% abstract abstract=abstract %}
+    {% endif %}
+
+    <section class="section quire-page__content">
+      <div class="container">
+        <div class="content" style="--bgc: {{ theme_color_secondary | strip | escape }}; --crosslink: {{ crosslink_color | strip | escape }}; --img: url({{ invitation_url | strip | escape }});">
+          {{ content }}
+          {% comment %} {% bibliography citations %} {% endcomment %}
+        </div>
+      </div>
+    </section>
+  </div>
+</div>

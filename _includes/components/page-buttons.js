@@ -18,36 +18,62 @@ module.exports = function(eleventyConfig) {
   } = eleventyConfig.globalData.config.navigation
 
   return function(params, options={}) {
-    const { pagination } = params
+    const { isKiosk, isAbout, pagination } = params
     const { nextPage, previousPage } = pagination
 
-    const prevPageButton = () => {
-      if (!previousPage) return
+    if (isKiosk) {
+      return ''
+    } 
+
+    else if (isAbout) {
+      const prevPageButton = () => {
+        if (!previousPage) return
+        return html`
+          <li class="quire-nav-button prev">
+            <a href="${previousPage.url}">${icon({ type: 'left-arrow', description: 'Go back a page'})}\u0020<span class="nav-title">${prevButtonText}</span></a>
+            <span class="visually-hidden">Previous Page (left keyboard arrow or swipe)</span>
+          </li>
+        `
+      }
       return html`
-        <li class="quire-nav-button prev">
-          <a href="${previousPage.url}">${icon({ type: 'left-arrow', description: 'Go back a page'})}\u0020<span class="nav-title">${prevButtonText}</span></a>
-          <span class="visually-hidden">Previous Page (left keyboard arrow or swipe)</span>
-        </li>
-      `
+        <div class="quire-contents-buttons" data-outputs-exclude="epub,pdf">
+          <ul>
+            ${prevPageButton()}
+            ${nextPageButton()}
+          </ul>
+        </div>
+      `    
     }
 
-    const nextPageButton = () => {
-      if (!nextPage) return
+    else {
+      const prevPageButton = () => {
+        if (!previousPage) return
+        return html`
+          <li class="quire-nav-button prev">
+            <a href="${previousPage.url}">${icon({ type: 'left-arrow', description: 'Go back a page'})}\u0020<span class="nav-title">${prevButtonText}</span></a>
+            <span class="visually-hidden">Previous Page (left keyboard arrow or swipe)</span>
+          </li>
+        `
+      }
+
+      const nextPageButton = () => {
+        if (!nextPage) return
+        return html`
+          <li class="quire-nav-button next">
+            <a href="${nextPage.url}"><span class="nav-title">${nextButtonText}</span>\u0020${icon({ type: 'right-arrow', description: 'Go back next page' })}</a>
+              <span class="visually-hidden">Next Page (right keyboard arrow or swipe)</span>
+          </li>
+        `
+      }
+
       return html`
-        <li class="quire-nav-button next">
-          <a href="${nextPage.url}"><span class="nav-title">${nextButtonText}</span>\u0020${icon({ type: 'right-arrow', description: 'Go back next page' })}</a>
-            <span class="visually-hidden">Next Page (right keyboard arrow or swipe)</span>
-        </li>
+        <div class="quire-contents-buttons" data-outputs-exclude="epub,pdf">
+          <ul>
+            ${prevPageButton()}
+            ${nextPageButton()}
+          </ul>
+        </div>
       `
     }
-
-    return html`
-      <div class="quire-contents-buttons" data-outputs-exclude="epub,pdf">
-        <ul>
-          ${prevPageButton()}
-          ${nextPageButton()}
-        </ul>
-      </div>
-    `
   }
 }

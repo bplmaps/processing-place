@@ -428,3 +428,10 @@ object_list:
     link: "https://www.spatial-effects.com/hexagonia/hexagonia-the-movie.mp4"
     figure: 
       - id: "hexagonia"
+  - id: "hexagonia-kiosk"
+    title: "Hexagonia"
+    creator: "Geoffrey Dutton"
+    year: "1969"
+    location: "Loeb Library, Harvard Graduate School of Design"
+    figure: 
+      - id: "hexagonia"
