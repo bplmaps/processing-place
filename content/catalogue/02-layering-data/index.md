@@ -14,4 +14,4 @@ theme_color_secondary: "#ac5ea5"
 
 > The computer data file process encodes and provides separable access to each subvariable. Thus, in effect, one makes not one data map, but a separable, mappable file component for each subvariable. The computer allows the selective recall and recoding of these subvariables, as required by the criteria in any particular analysis.
 
-<div class="container pullquote-citation">—CARL STEINITZ, PAUL PARKER, AND LAWRIE JORDAN, "HAND-DRAWN OVERLAYS: THEIR HISTORY AND PROSPECTIVE USES," <i>LANDSCAPE ARCHITECTURE</i> 66, NO. 5 (1976), PP. 444–455.</div>
+<div class="container pullquote-citation-page">—CARL STEINITZ, PAUL PARKER, AND LAWRIE JORDAN, "HAND-DRAWN OVERLAYS: THEIR HISTORY AND PROSPECTIVE USES," <i>LANDSCAPE ARCHITECTURE</i> 66, NO. 5 (1976), PP. 444–455.</div>

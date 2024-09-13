@@ -7,7 +7,7 @@ toc: false
 image: ProP_web_cover.png
 theme_color_primary: "#ac5ea5"
 theme_color_secondary: "#ac5ea5"
-invitation_url: "../../_assets/images/figures/01_bulb.png"
+invitation_url: "../_assets/images/figures/01_bulb.png"
 ---
 
 <span class="body-large">Today, the maps that show up most often in our everyday lives are made by computers. Even the simplest of these rely on vast databases of geographic information and complex systems of analysis and visualization. In this exhibition, we look at how computers and cartography fused together over the past century---and how they redrew our world in the process.</span>

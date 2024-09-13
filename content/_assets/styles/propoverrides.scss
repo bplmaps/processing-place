@@ -85,8 +85,12 @@
   padding-left: 15%;
   padding-right: 10%;
   font-size: 0.8em;
-  margin-bottom: 2em
-}
+  margin-bottom: 2em;
+  &-page {
+    @extend .pullquote-citation;
+    padding-right: 140px;
+    }
+  }
 
 .content strong {
   color: var(--bgc, black);
