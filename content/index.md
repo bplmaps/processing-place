@@ -4,7 +4,7 @@ layout: cover
 order: 1
 menu: true
 toc: false
-image: ProP_web_cover.png
+image: ProP_web_cover_noBg.png
 theme_color_primary: "#ac5ea5"
 theme_color_secondary: "#ac5ea5"
 invitation_url: "../_assets/images/figures/01_bulb.png"

@@ -1,3 +1,16 @@
+.quire-cover__hero {
+  background-color: var(--bgc);
+  background-size: 15px 15px;
+  background-image:
+    linear-gradient(to right, $off-black 1px, transparent 1px),
+    linear-gradient(to bottom, $off-black 1px, transparent 1px);
+  color: background-color-text-classic($secondary-background-color);
+}
+
+.quire-cover__overlay {
+  background-size: 100vw;
+}
+
 .dedication {
   margin-bottom: 10%;
   overflow: hidden;
