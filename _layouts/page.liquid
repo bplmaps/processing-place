@@ -16,7 +16,7 @@ description: Single page default template
 </div>
 {% if content %}
 <section class="section quire-page__content" >
-  <div class="container">
+  <div class="container" style="--img: url({{ invitation_url | strip | escape }});">
     <div class="content" style="--bgc: {{ theme_color_primary | strip | escape }}; --crosslink: {{ crosslink_color | strip | escape }}; --shadow {{ theme_color_primary | strip | escape }};">
       {{ content }}
       {% bibliography citations %}
