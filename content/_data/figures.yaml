@@ -113,8 +113,8 @@ figure_list:
     manifestId: https://ark.digitalcommonwealth.org/ark:/50959/ns069g065/manifest
     canvasId: https://ark.digitalcommonwealth.org/ark:/50959/ns069g065/canvas/6d5757633
   - id: "boston-atlas-4a"
-    manifestId: https://ark.digitalcommonwealth.org/ark:/50959/ns069g065/manifest
-    canvasId: https://ark.digitalcommonwealth.org/ark:/50959/ns069g065/canvas/8p58vp363
+    src: "figures/black-pop-boston.jpg"
+    zoom: true
   - id: "boston-atlas-7a"
     manifestId: https://ark.digitalcommonwealth.org/ark:/50959/ns069g065/manifest
     canvasId: https://ark.digitalcommonwealth.org/ark:/50959/ns069g065/canvas/1g05mk53b
